@@ -342,7 +342,8 @@
 
 <script>
     // 每天切换 banner 图.  Switch banner image every day.
-    var bannerUrl = "/medias/banner/" + new Date().getDay() + '.jpg';
+    // ps：已经变成每次切换banner噜~~
+    var bannerUrl = "/medias/banner/" + Math.floor(Math.random()*11) + '.jpg';
     $('.bg-cover').css('background-image', 'url(' + bannerUrl + ')');
 </script>
 
@@ -363,37 +364,10 @@
             <div class="tag-chips">
                 
                 
-                <a href="/tags/%E6%95%B4%E6%B4%BB/" title="整活: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="整活" style="background-color: #F9EBEA;">整活
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/%E4%B8%A2%E4%BA%BA/" title="丢人: 2">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-active "
-                            data-tagname="丢人" style="background-color: #F5EEF8;">丢人
-                        <span class="tag-length">2</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/%E6%91%B8%E9%B1%BC/" title="摸鱼: 2">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="摸鱼" style="background-color: #D5F5E3;">摸鱼
-                        <span class="tag-length">2</span>
-                    </span>
-                </a>
-                
-                
                 <a href="/tags/Git/" title="Git: 2">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            data-tagname="Git" style="background-color: #E8F8F5;">Git
+                            data-tagname="Git" style="background-color: #F9EBEA;">Git
                         <span class="tag-length">2</span>
                     </span>
                 </a>
@@ -402,7 +376,7 @@
                 <a href="/tags/%E5%B0%8F%E6%8A%80%E5%B7%A7/" title="小技巧: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            data-tagname="小技巧" style="background-color: #FEF9E7;">小技巧
+                            data-tagname="小技巧" style="background-color: #F5EEF8;">小技巧
                         <span class="tag-length">1</span>
                     </span>
                 </a>
@@ -411,8 +385,35 @@
                 <a href="/tags/Hexo/" title="Hexo: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            data-tagname="Hexo" style="background-color: #F8F9F9;">Hexo
+                            data-tagname="Hexo" style="background-color: #D5F5E3;">Hexo
                         <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/%E6%95%B4%E6%B4%BB/" title="整活: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="整活" style="background-color: #E8F8F5;">整活
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/%E4%B8%A2%E4%BA%BA/" title="丢人: 2">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-active "
+                            data-tagname="丢人" style="background-color: #FEF9E7;">丢人
+                        <span class="tag-length">2</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/%E6%91%B8%E9%B1%BC/" title="摸鱼: 2">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="摸鱼" style="background-color: #F8F9F9;">摸鱼
+                        <span class="tag-length">2</span>
                     </span>
                 </a>
                 
@@ -462,19 +463,10 @@
                 </a>
                 
                 
-                <a href="/tags/Aboutme/" title="Aboutme: 2">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="Aboutme" style="background-color: #F9E79F;">Aboutme
-                        <span class="tag-length">2</span>
-                    </span>
-                </a>
-                
-                
                 <a href="/tags/GAME/" title="GAME: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            data-tagname="GAME" style="background-color: #A3E4D7;">GAME
+                            data-tagname="GAME" style="background-color: #F9E79F;">GAME
                         <span class="tag-length">1</span>
                     </span>
                 </a>
@@ -494,6 +486,15 @@
                              chip-default "
                             data-tagname="PC" style="background-color: #FFF;">PC
                         <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/Aboutme/" title="Aboutme: 2">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="Aboutme" style="background-color: #FEF9E7;">Aboutme
+                        <span class="tag-length">2</span>
                     </span>
                 </a>
                 
