@@ -469,14 +469,14 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2021-03-10
+                    2021-03-12
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    376
+                    383
                 </div>
                 
 
@@ -508,7 +508,9 @@
             <div id="articleContent">
                 <p>大概率原因还是远程连接方式的问题。</p>
 <p><strong>如果是hexo，若修改配置后还是走https的话可以检查_config.yml，</strong></p>
-<p><strong>修改deploy，在repository后加.git</strong></p>
+<p><strong>修改deploy，去除https，改为</strong></p>
+<pre class="line-numbers language-none"><code class="language-none">git@github.com:USERNAME&#x2F;REPOSITORY.git<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
 <h3 id="检查全局配置"><a href="#检查全局配置" class="headerlink" title="检查全局配置"></a>检查全局配置</h3><p>确保用户名邮箱等配置正确</p>
 <pre class="line-numbers language-sh" data-language="sh"><code class="language-sh">git config --global  --list<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
