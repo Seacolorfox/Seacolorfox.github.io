@@ -3,7 +3,7 @@ $(function () {
      * 添加文章卡片hover效果.
      */
     let articleCardHover = function () {
-        let animateClass = 'animated pulse';
+        let animateClass = 'animated rubberBand';
         $('article .article').hover(function () {
             $(this).addClass(animateClass);
         }, function () {
