@@ -4,6 +4,37 @@
   
     
     <entry>
+      <title>调整Visual Studio 2005深色配色</title>
+      <link href="2021/03/24/diao-zheng-visual-studio-2005-shen-se-pei-se/"/>
+      <url>2021/03/24/diao-zheng-visual-studio-2005-shen-se-pei-se/</url>
+      
+        <content type="html"><![CDATA[<p>公司的项目比较<strong>toooooooooooooooo old</strong></p><p>使用新vs升级打开公司项目后会出现版本兼容问题而无法通过编译</p><p>被迫使用<strong>vs2005</strong>（超级难用，很蠢蠢的版本）来写公司<strong>ASP</strong></p><p>以前的vs界面相对来说不是那么cool(纯白比较辣眼睛)</p><p>于是简单修改配色，导出并整理了自己的配色</p><p>附链接：</p><p>链接：<a href="https://pan.baidu.com/s/1xM5ZF4T_gAOevsyyywxHmg">https://pan.baidu.com/s/1xM5ZF4T_gAOevsyyywxHmg</a><br>提取码：phjb<br>复制这段内容后打开百度网盘手机App，操作更方便哦</p><h3 id="导入教程："><a href="#导入教程：" class="headerlink" title="导入教程："></a>导入教程：</h3><p><img src="https://cdn.jsdelivr.net/gh/seacolorfox/seacolorfox.github.io/medias/loading.gif" data-original="https://pic.gksec.com/2021/03/24/8cd0612d520f5/image-20210324092819504.png" alt="image-20210324092819504"></p><p><img src="https://cdn.jsdelivr.net/gh/seacolorfox/seacolorfox.github.io/medias/loading.gif" data-original="https://pic.gksec.com/2021/03/24/a0d4a6418ec43/image-20210324092905344.png" alt="image-20210324092905344"></p><p><img src="https://cdn.jsdelivr.net/gh/seacolorfox/seacolorfox.github.io/medias/loading.gif" data-original="https://pic.gksec.com/2021/03/24/f2e92fab9abbe/image-20210324092943420.png" alt="image-20210324092943420"></p><p><img src="https://cdn.jsdelivr.net/gh/seacolorfox/seacolorfox.github.io/medias/loading.gif" data-original="C:%5CUsers%5CSeacolorfox%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210324093037414.png" alt="image-20210324093037414"></p><p><img src="https://cdn.jsdelivr.net/gh/seacolorfox/seacolorfox.github.io/medias/loading.gif" data-original="https://pic.gksec.com/2021/03/24/64651bc563f80/image-20210324093115251.png" alt="image-20210324093115251"></p><p>**tips： 因为每个人显示器由于各种原因显示可能会有偏差（或辣眼睛</p><p>所以可以修改<strong>项背景色</strong> 调出稍微暗淡一点的黑色（视自己感受调整</p><p><img src="https://cdn.jsdelivr.net/gh/seacolorfox/seacolorfox.github.io/medias/loading.gif" data-original="C:%5CUsers%5CSeacolorfox%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210324094116780.png" alt="image-20210324094116780"></p><h3 id="前后对比"><a href="#前后对比" class="headerlink" title="前后对比"></a>前后对比</h3><p><img src="https://cdn.jsdelivr.net/gh/seacolorfox/seacolorfox.github.io/medias/loading.gif" data-original="https://pic.gksec.com/2021/03/24/032632671acf0/image-20210324093812610.png" alt="image-20210324093812610"></p><p><img src="https://cdn.jsdelivr.net/gh/seacolorfox/seacolorfox.github.io/medias/loading.gif" data-original="https://pic.gksec.com/2021/03/24/d530758298de0/image-20210324101010854.png" alt="image-20210324101010854"></p><p>效果虽然还是一言难尽- - <strong>似乎不能调整IDE主题色彩</strong></p><p><del>不得不吐槽1202年了还有ASP</del></p><p><del>不能用docker还得用ssms</del></p><p><del>还不支持Linq</del></p><p><del>很难受就是了</del></p><p><img src="https://cdn.jsdelivr.net/gh/seacolorfox/seacolorfox.github.io/medias/loading.gif" data-original="https://pic.gksec.com/2021/04/06/e8bdd060c240a/emoticons_pic_01.jpg" alt="Emoticons_pic_01"></p><p><a href="https://studiostyl.es/">https://studiostyl.es/</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 笔记 </category>
+          
+          <category> 考古 </category>
+          
+          <category> 原创文章 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Visual Studio </tag>
+            
+            <tag> DIY </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Xbox Series X 4K主题提取壁纸</title>
       <link href="2021/03/03/xbox-series-x-4k-zhu-ti-ti-qu-bi-zhi/"/>
       <url>2021/03/03/xbox-series-x-4k-zhu-ti-ti-qu-bi-zhi/</url>
