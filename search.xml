@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>Visual Studio 2005无法读取旧项目文件</title>
+      <link href="2021/03/29/visual-studio-2005-wu-fa-du-qu-jiu-xiang-mu-wen-jian/"/>
+      <url>2021/03/29/visual-studio-2005-wu-fa-du-qu-jiu-xiang-mu-wen-jian/</url>
+      
+        <content type="html"><![CDATA[<p><img src="https://cdn.jsdelivr.net/gh/seacolorfox/seacolorfox.github.io/medias/loading.gif" data-original="https://pic.gksec.com/2021/04/25/4775fbd71db76/image-20210329092039232.png" alt="image-20210329092039232"></p><p>找到安装文件点Set-Up打开</p><p><strong>选修复进入维护模式 也通通没有用！</strong></p><p>原因是新版win10不兼容vs2005</p><p>在<strong>启用或关闭windows功能</strong>中配置启用<strong>IIS6兼容性</strong>问题解决</p><p>（但不是长久之计</p><p><img src="https://cdn.jsdelivr.net/gh/seacolorfox/seacolorfox.github.io/medias/loading.gif" data-original="https://pic.gksec.com/2021/04/25/ff5c46790a04e/image-20210329102817404.png" alt="image-20210329102817404"></p><p>所以还是装虚拟机吧(滑稽)。（顺带吐槽一下SVN,commit会直接提交不说，冲突处理也没有提示，插件还会拉vs后腿</p><p><img src="https://cdn.jsdelivr.net/gh/seacolorfox/seacolorfox.github.io/medias/loading.gif" data-original="https://pic.gksec.com/2021/04/25/31b80191d5ce9/image-20210329122120253.png" alt="image-20210329122120253"></p><p>支 持 最 新 的 硬 件 和 软 件 产 品（指vs2005</p><p><img src="https://cdn.jsdelivr.net/gh/seacolorfox/seacolorfox.github.io/medias/loading.gif" data-original="https://pic.gksec.com/2021/04/25/632e3be1a1be2/image-20210329122331181.png" alt="image-20210329122331181"></p><p><img src="https://cdn.jsdelivr.net/gh/seacolorfox/seacolorfox.github.io/medias/loading.gif" data-original="https://pic.gksec.com/2021/04/25/12a4f7d0ae24f/image-20210329123328686.png" alt="image-20210329123328686"></p><p><img src="https://cdn.jsdelivr.net/gh/seacolorfox/seacolorfox.github.io/medias/loading.gif" data-original="https://pic.gksec.com/2021/04/25/d783e97902e90/image-20210329094422173.png" alt="image-20210329094422173"></p><p><img src="https://cdn.jsdelivr.net/gh/seacolorfox/seacolorfox.github.io/medias/loading.gif" data-original="https://pic.gksec.com/2021/04/25/d4ee0fcd0511c/image-20210329094634265.png" alt="司 马 脸"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 翻车记录 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Visual Studio </tag>
+            
+            <tag> 考古 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>调整Visual Studio 2005深色配色</title>
       <link href="2021/03/24/diao-zheng-visual-studio-2005-shen-se-pei-se/"/>
       <url>2021/03/24/diao-zheng-visual-studio-2005-shen-se-pei-se/</url>
@@ -15,8 +42,6 @@
           
           <category> 笔记 </category>
           
-          <category> 考古 </category>
-          
           <category> 原创文章 </category>
           
       </categories>
@@ -25,6 +50,8 @@
         <tags>
             
             <tag> Visual Studio </tag>
+            
+            <tag> 考古 </tag>
             
             <tag> DIY </tag>
             
