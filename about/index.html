@@ -170,6 +170,12 @@
 
  
 <body>
+    <!-- Fireworks -->
+        
+        <canvas class="fireworks" style="position: fixed;left: 0;top: 0;z-index: 1; pointer-events: none;" ></canvas> 
+        <script type="text/javascript" src="//cdn.bootcss.com/animejs/2.2.0/anime.min.js"></script> 
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/seacolorfox/seacolorfox.github.io//js/fireworks.js" async="async"></script>
+        
     <!-- LoadingPages -->
     
         <div id="loading-container">
@@ -723,7 +729,7 @@
         },
         xAxis: {
             type: 'category',
-            data: ["2020-04","2020-05","2020-06","2020-07","2020-08","2020-09","2020-10","2020-11","2020-12","2021-01","2021-02","2021-03","2021-04"]
+            data: ["2020-05","2020-06","2020-07","2020-08","2020-09","2020-10","2020-11","2020-12","2021-01","2021-02","2021-03","2021-04","2021-05"]
         },
         yAxis: {
             type: 'value',
@@ -733,7 +739,7 @@
                 name: '文章篇数',
                 type: 'line',
                 color: ['#6772e5'],
-                data: [0,0,0,1,0,1,1,4,0,2,0,3,0],
+                data: [0,0,1,0,1,1,4,0,2,0,3,0,0],
                 markPoint: {
                     symbolSize: 45,
                     color: ['#fa755a','#3ecf8e','#82d3f4'],
@@ -775,7 +781,7 @@
                 type: 'pie',
                 radius: '50%',
                 color: ['#6772e5', '#ff9e0f', '#fa755a', '#3ecf8e', '#82d3f4', '#ab47bc', '#525f7f', '#f51c47', '#26A69A'],
-                data: [{"name":"搞事","value":1},{"name":"笔记","value":3},{"name":"翻车记录","value":2},{"name":"安利","value":1},{"name":"摸鱼","value":1},{"name":"原创文章","value":2},{"name":"关于","value":2},{"name":"原创摸鱼","value":1},{"name":"安利","value":1},{"name":"原创文章","value":1}],
+                data: [{"name":"搞事","value":1},{"name":"笔记","value":3},{"name":"翻车记录","value":2},{"name":"安利","value":1},{"name":"摸鱼","value":1},{"name":"关于","value":2},{"name":"原创文章","value":2},{"name":"原创文章","value":1},{"name":"原创摸鱼","value":1},{"name":"安利","value":1}],
                 itemStyle: {
                     emphasis: {
                         shadowBlur: 10,
@@ -1459,6 +1465,7 @@ $(function () {
     
     <script src="https://cdn.jsdelivr.net/gh/seacolorfox/seacolorfox.github.io//libs/instantpage/instantpage.js" type="module"></script>
     
+
 <script>
             window.imageLazyLoadSetting = {
                 isSPA: false,
