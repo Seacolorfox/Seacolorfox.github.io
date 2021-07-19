@@ -489,8 +489,53 @@
 <link type="text/css" href="/libs/justifiedGallery/justifiedGallery.min.css" rel="stylesheet">
 
 
+        <div class="bg-cover pd-header about-cover">
+    <div class="container">
+    <div class="row">
+    <div class="col s10 offset-s1 m8 offset-m2 l8 offset-l2">
+        <div class="brand">
+            <div class="title center-align">
+                
+                ヾ(•ω•`)o在装修中的狸站点！！
+                
+            </div>
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('https://cdn.jsdelivr.net/gh/seacolorfox/seacolorfox.github.io//medias/featureimages/4.jpg')">
+            <div class="description center-align">
+                
+                <span id="subtitle"></span>
+                <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+                <script>
+                    var typed = new Typed("#subtitle", {
+                        strings: ['从来没有真正的绝境, 只有心灵的迷途','Never really desperate, only the lost of the soul'],
+                        startDelay: 300,
+                        typeSpeed: 100,
+                        loop: true,
+                        backSpeed: 50,
+                        showCursor: true
+                    });
+                </script>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script>
+    // 每天切换 banner 图.  Switch banner image every day.
+    // ps：已经变成每次切换banner噜~~
+    var bannerUrl = "https://cdn.jsdelivr.net/gh/seacolorfox/seacolorfox.github.io//medias/banner/" + Math.floor(Math.random()*11) + '.jpg';
+    $('.bg-cover').css('background-image', 'url(' + bannerUrl + ')');
+</script>
+
+
+    </div>
+</div>
+    
+
+<!-- 
+
+<div class="bg-cover pd-header post-cover" style="background-image: url('https://pic.gksec.com/2021/03/03/e5a9289d72059/image.png')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
@@ -501,11 +546,25 @@
         </div>
     </div>
 </div>
+ -->
 
 
 
 <div class="container">
     <div class="photo-wrapper">
+        <div class="card">
+            <div class="card-content">
+                <div class="card-content article-card-content">
+                        <div class="title center-align" data-aos="zoom-in-up">
+                            <i class="fas fa-image"></i>&nbsp;&nbsp;一些测试图片~
+                        </div>
+                        <div id="articleContent" data-aos="fade-up">
+                            <p>Hello！</p>
+
+                        </div>
+                </div>
+            </div>
+        </div>
         
             <div class="waterfall" id="encrypt-blog">
                 <a target="_blank" href="https://pic.gksec.com/2021/02/20/e9972aa585748/16 xboxseriesx_anr_crop_drkbg_16x9_rgb_resized.jpg"     class="photo-item" rel="example_group noopener"     data-fancybox="images">      <img src="https://pic.gksec.com/2021/02/20/e9972aa585748/16 xboxseriesx_anr_crop_drkbg_16x9_rgb_resized.jpg"       alt=https://pic.gksec.com/2021/02/20/e9972aa585748/16 xboxseriesx_anr_crop_drkbg_16x9_rgb_resized.jpg>
