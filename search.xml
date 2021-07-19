@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>dotNET CLI的使用</title>
+      <link href="2021/07/19/dotnet-cli-de-shi-yong/"/>
+      <url>2021/07/19/dotnet-cli-de-shi-yong/</url>
+      
+        <content type="html"><![CDATA[<p>记录一些常见的.NET CLI命令</p><h2 id="创建"><a href="#创建" class="headerlink" title="创建"></a>创建</h2><pre class="line-numbers language-.NET&nbsp;CLI" data-language=".NET&nbsp;CLI"><code class="language-.NET&nbsp;CLI">dotnet new [arguments]<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h4 id="创建解决方案并命名"><a href="#创建解决方案并命名" class="headerlink" title="创建解决方案并命名"></a>创建解决方案并命名</h4><pre class="line-numbers language-.NET&nbsp;CLI" data-language=".NET&nbsp;CLI"><code class="language-.NET&nbsp;CLI">dotnet new sln -n|--name [slnName]<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h4 id="将项目添加到解决方案"><a href="#将项目添加到解决方案" class="headerlink" title="将项目添加到解决方案"></a>将项目添加到解决方案</h4><pre class="line-numbers language-.NET&nbsp;CLI" data-language=".NET&nbsp;CLI"><code class="language-.NET&nbsp;CLI">dotnet sln [slnName] add [.csproj]<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h4 id="枚举解决方案已包含的项目"><a href="#枚举解决方案已包含的项目" class="headerlink" title="枚举解决方案已包含的项目"></a>枚举解决方案已包含的项目</h4><pre class="line-numbers language-.NET&nbsp;CLI" data-language=".NET&nbsp;CLI"><code class="language-.NET&nbsp;CLI">dotnet sln list<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h4 id="移除解决方案已包含的项目"><a href="#移除解决方案已包含的项目" class="headerlink" title="移除解决方案已包含的项目"></a>移除解决方案已包含的项目</h4><pre class="line-numbers language-.NET&nbsp;CLI" data-language=".NET&nbsp;CLI"><code class="language-.NET&nbsp;CLI">dotnet sln remove [projectPATH]<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h2 id="项目编译"><a href="#项目编译" class="headerlink" title="项目编译"></a>项目编译</h2><pre class="line-numbers language-.NET&nbsp;CLI" data-language=".NET&nbsp;CLI"><code class="language-.NET&nbsp;CLI">dotnet build [project]dotnet -c|--configuration [Debug|Release]<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><h2 id="项目运行"><a href="#项目运行" class="headerlink" title="项目运行"></a>项目运行</h2><pre class="line-numbers language-.NET&nbsp;CLI" data-language=".NET&nbsp;CLI"><code class="language-.NET&nbsp;CLI">dotnet run [project]<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> 笔记 </category>
+          
+          <category> 原创文章 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> .NET </tag>
+            
+            <tag> 学习 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Visual Studio 2005无法读取旧项目文件</title>
       <link href="2021/03/29/visual-studio-2005-wu-fa-du-qu-jiu-xiang-mu-wen-jian/"/>
       <url>2021/03/29/visual-studio-2005-wu-fa-du-qu-jiu-xiang-mu-wen-jian/</url>
