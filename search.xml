@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>我回来了</title>
+      <link href="2024/03/06/wo-hui-lai-liao/"/>
+      <url>2024/03/06/wo-hui-lai-liao/</url>
+      
+        <content type="html"><![CDATA[<p>最近发生了很多很多事情orz（阴暗的爬行.gif<br>很久没有更新这个博客了<br>也一直有想要翻新这个博客的想法但是之前又没有时间又没有勇气（还懒<br>大部分乱七八糟的写了也并没有及时更新（光写不更就是你铐起来.jpg<br>争取趁着这段空闲修一修（白日做梦<br><img src="https://pic.gksec.com/20210721/7GvNHvIV/loading.gif" data-original="https://pic.gksec.com/20240306/65e82ee56bf7e.png" alt=""></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Record </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 海色狸の个人日志 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>20211231</title>
+      <link href="2021/12/31/20211231/"/>
+      <url>2021/12/31/20211231/</url>
+      
+        <content type="html"><![CDATA[<p>今天的工作内容是！</p><h1 id="等放假！！！！！"><a href="#等放假！！！！！" class="headerlink" title="等放假！！！！！"></a><strong>等放假！！！！！</strong></h1><p><img src="https://pic.gksec.com/20210721/7GvNHvIV/loading.gif" data-original="https://pic.gksec.com/20211231/Lh2sFlGu/0061Ca9Ogy1gxwvstgpi6j30hk0m80tm.jpg" alt="img"></p><p>呜呜呜今年还是一个人过orz</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Record </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 海色狸の个人日志 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>steam聊天框打字变成问号</title>
+      <link href="2021/12/13/steam-liao-tian-kuang-da-zi-bian-cheng-wen-hao/"/>
+      <url>2021/12/13/steam-liao-tian-kuang-da-zi-bian-cheng-wen-hao/</url>
+      
+        <content type="html"><![CDATA[<h1 id="这个问题解决啦！"><a href="#这个问题解决啦！" class="headerlink" title="这个问题解决啦！"></a><strong>这个问题解决啦！</strong></h1><p>最近steam切屏等操作后使用中文输入法字体会变成[????]<br><img src="https://pic.gksec.com/20210721/7GvNHvIV/loading.gif" data-original="https://pic.gksec.com/20211213/c8rNuFhP/image-20211213110137513.png" alt="image-20211213110137513"></p><p>经过观察发现出现这种现象时会出现一个这样的输入框<br><img src="https://pic.gksec.com/20210721/7GvNHvIV/loading.gif" data-original="https://pic.gksec.com/20211213/bi8icvPu/image-20211213110115237.png" alt="image-20211213110115237"></p><p>同时在微软社区有大量中文输入法用户提出这个了这个问题 官方却从来没有解决过这个问题</p><p><img src="https://pic.gksec.com/20210721/7GvNHvIV/loading.gif" data-original="https://pic.gksec.com/20211213/Hg2tMQAh/image-20211213110955746.png" alt="image-20211213110955746"></p><p>软软居然不解决这个问题？莫非不是windows的锅？</p><p>由于之前Steam版本没有这些现象，在几个版本更新之后出现了这个问题</p><p><img src="https://pic.gksec.com/20210721/7GvNHvIV/loading.gif" data-original="https://pic.gksec.com/20211213/kY1LzsBx/image-20211213110457158.png" alt="image-20211213110457158"></p><p><DEL>猜一波这个完成字符串有可能是steam的锅，使得输入法无法获取输入光标从而导致<strong>完成字符串</strong>的出现</DEL></p><hr><p>20220220</p><p>是字符编码的问题</p><p>删除掉美式键盘后不再出现这个问题</p><p><img src="https://pic.gksec.com/20210721/7GvNHvIV/loading.gif" data-original="https://pic.gksec.com/20220220/axyFizgI/image-20220220141623564.png" alt="image-20220220141623564"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 解决方案 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Steam </tag>
+            
+            <tag> CLOSED🔴 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>SqlServer死锁问题</title>
+      <link href="2021/12/08/sqlserver-si-suo-wen-ti/"/>
+      <url>2021/12/08/sqlserver-si-suo-wen-ti/</url>
+      
+        <content type="html"><![CDATA[<p>公司拉夸系统的菜单是通过SqlServer存储的</p><p>今天在update菜单节点的时候尝试了事务处理</p><p>可能在处理的时候又进行了数据库某些操作进而导致了死锁</p><p><img src="https://pic.gksec.com/20210721/7GvNHvIV/loading.gif" data-original="https://pic.gksec.com/20211208/nkoRpg5T/image-20211208150141085.png" alt="image-20211208150141085"></p><p><img src="https://pic.gksec.com/20210721/7GvNHvIV/loading.gif" data-original="https://pic.gksec.com/20211208/WJs3Lmic/image-20211208150129651.png" alt="image-20211208150129651"></p><p>查询死锁进程</p><pre class="line-numbers language-sql" data-language="sql"><code class="language-sql"><span class="token keyword">select</span> request_session_id <span class="token punctuation">,</span>resource_associated_entity_id<span class="token punctuation">,</span>OBJECT_NAME<span class="token punctuation">(</span>resource_associated_entity_id<span class="token punctuation">)</span> <span class="token keyword">as</span> tablename  <span class="token keyword">from</span> sys<span class="token punctuation">.</span>dm_tran_locks <span class="token keyword">where</span> resource_type<span class="token operator">=</span><span class="token string">'OBJECT'</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p><img src="https://pic.gksec.com/20210721/7GvNHvIV/loading.gif" data-original="https://pic.gksec.com/20211208/xUcDrM5c/image-20211208150453242.png" alt="image-20211208150453242"></p><p>终止正在继续的查询</p><p><img src="https://pic.gksec.com/20210721/7GvNHvIV/loading.gif" data-original="https://pic.gksec.com/20211208/t1a7aFM9/image-20211208150527763.png" alt="image-20211208150527763"></p><p>还是存在一个进程（可能系统某个地方在继续对这个表进行查询）</p><p><img src="https://pic.gksec.com/20210721/7GvNHvIV/loading.gif" data-original="https://pic.gksec.com/20211208/tVzqCMR8/image-20211208150622588.png" alt="image-20211208150622588"></p><p>直接kill</p><pre class="line-numbers language-sql" data-language="sql"><code class="language-sql"><span class="token keyword">kill</span> <span class="token number">56</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>之后即可正常查询</p><p><img src="https://pic.gksec.com/20210721/7GvNHvIV/loading.gif" data-original="https://pic.gksec.com/20211208/mQnYyfQE/image-20211208150824249.png" alt="image-20211208150824249"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 解决方案 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> SQL </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>我特么又又被盗图了！</title>
+      <link href="2021/11/05/wo-te-me-you-you-bei-dao-tu-liao/"/>
+      <url>2021/11/05/wo-te-me-you-you-bei-dao-tu-liao/</url>
+      
+        <content type="html"><![CDATA[<p><img src="https://pic.gksec.com/20210721/7GvNHvIV/loading.gif" data-original="https://pic.gksec.com/20211106/PV1ea1jP/QQ%E5%9B%BE%E7%89%8720211106123601.png" alt="20211106123601"></p><p>这次被盗到国外某购物网站上了</p><p><img src="https://pic.gksec.com/20210721/7GvNHvIV/loading.gif" data-original="https://pic.gksec.com/20211105/LRvElH5x/image-20211105125802213.png" alt="image-20211105125802213"></p><p><img src="https://pic.gksec.com/20210721/7GvNHvIV/loading.gif" data-original="https://pic.gksec.com/20211105/T3GbKp6r/image-20211105125748580.png" alt="image-20211105125748580"></p><p><img src="https://pic.gksec.com/20210721/7GvNHvIV/loading.gif" data-original="https://pic.gksec.com/20211105/EdzO4Drm/H141f49e4a70548b4b63e999a46e7177cg.jpg" alt="img"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Record </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> WTF💢 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Windows系统Alt+Tab出现多个Edge浏览器标签页</title>
+      <link href="2021/10/22/windows-xi-tong-alt-tab-chu-xian-duo-ge-edge-liu-lan-qi-biao-qian-ye/"/>
+      <url>2021/10/22/windows-xi-tong-alt-tab-chu-xian-duo-ge-edge-liu-lan-qi-biao-qian-ye/</url>
+      
+        <content type="html"><![CDATA[<p>电脑里跑N+1个不同版本浏览器上常事.jpg</p><p>不知哪版<strong>win10更新</strong>开始<br><kbd>Alt</kbd>+<kbd>Tab</kbd> 就会出现很多Edge标签页 十分不习惯<br>因为以前都是使用<kbd>Ctrl</kbd>+<kbd>Tab</kbd>来单独切换浏览器标签页<br><img src="https://pic.gksec.com/20210721/7GvNHvIV/loading.gif" data-original="https://pic.gksec.com/20211022/5j4D4dW9/image-20211022154656445.png" alt="image-20211022154656445"></p><p>后来发现能单独关闭这一个功能</p><p>这一功能被单独放置在win10设置→系统→多任务 处理/设置 中</p><p><img src="https://pic.gksec.com/20210721/7GvNHvIV/loading.gif" data-original="https://pic.gksec.com/20211022/Q77tcpxF/image-20211022155211419.png" alt="image-20211022155211419"></p><p>修改<kbd>Alt</kbd>+<kbd>Tab</kbd>为“<strong>仅打开的窗口</strong>” 即可解决<br><img src="https://pic.gksec.com/20210721/7GvNHvIV/loading.gif" data-original="https://pic.gksec.com/20211022/A8SYpuVe/image-20211022155246036.png" alt="image-20211022155246036"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 解决方案 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Windows </tag>
+            
+            <tag> 浏览器 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>20211015</title>
+      <link href="2021/10/15/20211015/"/>
+      <url>2021/10/15/20211015/</url>
+      
+        <content type="html"><![CDATA[<p>今天金毛狮王总算是出院啦。。。</p><p>昨天做了CT复查 血肿明显吸收</p><p>医生催了好多次出院 虽然还是想让她在姨妈那呆一会</p><p>但是她就是想要归家~</p><p>打电话还反复强调自己在家会老老实实坐着不乱跑 让老爸煲个汤就可以了</p><p>接下来应该就是一段漫长的修养过程了~</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Record </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 海色狸の个人日志 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>狸站升级与维护记录</title>
+      <link href="2021/10/09/li-zhan-sheng-ji-yu-wei-hu-ji-lu/"/>
+      <url>2021/10/09/li-zhan-sheng-ji-yu-wei-hu-ji-lu/</url>
+      
+        <content type="html"><![CDATA[<h3 id="余下的坑"><a href="#余下的坑" class="headerlink" title="余下的坑"></a>余下的坑</h3><p>标签与分类有重复</p><p>留言板的补充</p><p>相册加密功能（觉得好像没有什么必要.jpg</p><hr><h4 id="2021-10-18"><a href="#2021-10-18" class="headerlink" title="2021.10.18"></a>2021.10.18</h4><p>*修复了相册封面图片不能正常显示的问题！</p><h4 id="2021-10-09"><a href="#2021-10-09" class="headerlink" title="2021.10.09"></a>2021.10.09</h4><p>+启用了文章密码！！</p><h4 id="2021-07-20"><a href="#2021-07-20" class="headerlink" title="2021.07.20"></a>2021.07.20</h4><p>+添加了hexo-magnet！ 并修改了自定义配置！</p><h4 id="2021-07-19"><a href="#2021-07-19" class="headerlink" title="2021.07.19"></a>2021.07.19</h4><p>+完善了相册banner和小卡片！</p><h4 id="2021-07-15"><a href="#2021-07-15" class="headerlink" title="2021.07.15"></a>2021.07.15</h4><p>+简单又一小步，不再咕咕咕！About Page添加了weiboShow！！</p><h4 id="2021-05-05"><a href="#2021-05-05" class="headerlink" title="2021.05.05"></a>2021.05.05</h4><p>+简单一小步，添加了鼠标点击firework！！</p><h4 id="2021-04-28"><a href="#2021-04-28" class="headerlink" title="2021.04.28"></a>2021.04.28</h4><p>+添加了Valine-Admin！ 现在评论有邮件通知了！！欢呼！</p><h4 id="2021-04-12"><a href="#2021-04-12" class="headerlink" title="2021.04.12"></a>2021.04.12</h4><p>+相册正常显示了！</p><h4 id="2021-03-23"><a href="#2021-03-23" class="headerlink" title="2021.03.23"></a>2021.03.23</h4><p>+添加了相册！！！，并自定义了图床！！（还在施工ing</p><p>+添加了相册小卡片</p><p>+修复了相册内容图片过小的问题（暂时</p><h4 id="2021-03-18"><a href="#2021-03-18" class="headerlink" title="2021.03.18"></a>2021.03.18</h4><p>+添加了LoadingPages</p><h4 id="2021-03-17"><a href="#2021-03-17" class="headerlink" title="2021.03.17"></a>2021.03.17</h4><p>+更新了Valine v1.4.14！并使用了部分新特性！</p><h4 id="2021-03-12"><a href="#2021-03-12" class="headerlink" title="2021.03.12"></a>2021.03.12</h4><p>+更新了恰饭🐴！！</p><h4 id="2021-03-11"><a href="#2021-03-11" class="headerlink" title="2021.03.11"></a>2021.03.11</h4><p>+Matery更新至v2.0.0!!</p><p>+优化了懒加载 现在可以正常点击图片了！！</p><p>+已经变成每次切换banner噜~~</p><p>-移除hexo-prism-plugin，使用Hexo5.0自带高亮prismjs！！</p><h4 id="2021-03-10"><a href="#2021-03-10" class="headerlink" title="2021.03.10"></a>2021.03.10</h4><p>更新了Hexo 5.0.0！</p><h4 id="2021-02-01"><a href="#2021-02-01" class="headerlink" title="2021.02.01"></a>2021.02.01</h4><p>关于页面中的相册可以使用其他CDN了！！</p><h4 id="2020-11-14"><a href="#2020-11-14" class="headerlink" title="2020.11.14"></a>2020.11.14</h4><p>更新了LOGO!!!</p><h4 id="2020-11-05"><a href="#2020-11-05" class="headerlink" title="2020.11.05"></a>2020.11.05</h4><p>完善搜索功能 修改部分样式</p><p>添加字数统计与背景动态彩带</p><h4 id="2020-11-04"><a href="#2020-11-04" class="headerlink" title="2020.11.04"></a>2020.11.04</h4><p>更新Banner图片 添加Autodesk文章图片 部分自定义</p><h4 id="2020-11-02"><a href="#2020-11-02" class="headerlink" title="2020.11.02"></a>2020.11.02</h4><p>添加留言板 并简单自定义留言板</p><h4 id="2020-10-29"><a href="#2020-10-29" class="headerlink" title="2020.10.29"></a>2020.10.29</h4><p>添加友链 更改主题</p><blockquote><p>  title: 我的新站点！！<br>  text: 刚迁移的、新鲜的、热乎的新Blog，随笔、记录缓慢搬运ing，后续功能完善ing…</p></blockquote><h4 id="2020-10-23"><a href="#2020-10-23" class="headerlink" title="2020.10.23"></a>2020.10.23</h4><p>Create CNAME 正确设置CNAME 重新部署的时候就不会要再次设置啦！</p><p>更改懒加载配置</p><p>添加Valine</p><h4 id="2020-10-22"><a href="#2020-10-22" class="headerlink" title="2020.10.22"></a>2020.10.22</h4><p>修改域名</p><h4 id="2020-10-21"><a href="#2020-10-21" class="headerlink" title="2020.10.21"></a>2020.10.21</h4><p>添加prism-plugin</p><p>添加懒加载 以及 懒加载所应用gif</p><h4 id="2020-10-20"><a href="#2020-10-20" class="headerlink" title="2020.10.20"></a>2020.10.20</h4><p>添加副标题</p><blockquote><p>subtitle: ‘ヾ(•ω•`)o在装修中的狸站点！！’</p></blockquote><p>应用jsDelivr</p><h4 id="2020-10-18"><a href="#2020-10-18" class="headerlink" title="2020.10.18"></a>2020.10.18</h4><p>添加标签与分类页面</p><p>添加About页面，更新头像</p><h4 id="2020-10-17"><a href="#2020-10-17" class="headerlink" title="2020.10.17"></a>2020.10.17</h4><p>更新404页面（宇航员） 尝试添加背景音乐（首次应用于自动桌子文）</p><h4 id="2020-10-16"><a href="#2020-10-16" class="headerlink" title="2020.10.16"></a>2020.10.16</h4><p>添加404页面</p><h4 id="2020-09-06"><a href="#2020-09-06" class="headerlink" title="2020.09.06"></a>2020.09.06</h4><p>添加permalink-pinyin</p><h4 id="2020-09-05"><a href="#2020-09-05" class="headerlink" title="2020.09.05"></a>2020.09.05</h4><p>首篇文章迁移 |&gt;关于Autodesk（自动桌子）的卸载与重装</p><h4 id="2020-07-26"><a href="#2020-07-26" class="headerlink" title="2020.07.26"></a>2020.07.26</h4><p>修改主题模板为matery 并更新部分链接 替换打赏图片为<del>咕咕</del></p><h4 id="2020-07-25"><a href="#2020-07-25" class="headerlink" title="2020.07.25"></a>2020.07.25</h4><p>新博客搭建 完成源文件备份 创建备份仓库</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 站点升级与维护记录 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> blogs站 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>20210928</title>
+      <link href="2021/09/28/20210928/"/>
+      <url>2021/09/28/20210928/</url>
+      
+        <content type="html"><![CDATA[<p>今天没有去医院</p><p>原因是太懒+心情烦躁只想静静</p><p>这几天父母饮食都是靠我跟莎姐在网上和联系医院附近的店子安排。</p><hr><p>今天真的很烦躁、也很疲惫</p><p>上班摸鱼一整天一个字母都没有敲</p><p>在牵挂家里人多同时，加上莎姐一直微信在给我发消息 一会担心这个菜不好吃 这个菜吃不惯 </p><p>很是心烦意乱 根本不能静下心来 </p><hr><p>老妈没有太大的食欲，吃的东西少 中午吃了一片药 然后又接着喝粥 结果又吐了</p><p>受伤的情况确实不乐观 我也在网上知晓了有后遗症的可能性</p><p>我也确实很害怕，也很担心。但是我及时是在医院，也不能发挥太大作用，病房平常都有一个护士看着，只有趁护士换班的时候 或者开着门的时候才能溜进去，简直就像在出演小偷一样，很难受。绝大部分时间都只能在医院一楼大厅或者回酒店干坐着，等到饭点再带饭上去。</p><hr><p>莎姐在广州那边隔的太远 本来消息就比我获得晚</p><p>已经知道的事情还会被她在微信上重复一次</p><p>原本已经够焦虑的我再被重复一次，更加焦虑了，逐渐心烦了起来</p><p>本来打算提前回家的我</p><p>突然看到微信上又被她发一遍“你妈妈又吐了”、“毕竟是头受了伤就不会像以前一样了”</p><p>我很不甘心，也很心烦。 那绿色的聊天框仿佛是唐僧念的经一样让我越来越豹躁。真无能狂怒。 在办公室只能在微信上连续敲打感叹号来表示我的烦躁 </p><p>凑巧手机（P20）也因为内存不足和过热变得很卡很卡，让我更烦了</p><p>趁没人在休息室把手机丢在沙发上大喊“我知道！！！别念了！！” 来发泄情绪（没有打语音） 但是之后又不得不在心中警示自己要控制情绪 很憋屈 也很难受</p><p>我真的很想说”你管那么多为啥不直接回来算了” 但是转念一想 毕竟伤的不是她的妈妈。</p><p>虽然她做的这些毕竟是一番好意，但是我真的想安静一会 哪怕一会儿也好</p><hr><p>晚上打Apex（被人咕了）前写了一个简单的菜谱</p><p>早上是小笼包+肉丝汤粉面+青菜+水煮蛋</p><p>中午给老爸点一个农家一碗香 给老妈点一个青菜皮蛋瘦肉粥</p><p>晚上给老妈点一个莲藕排骨汤+一些比较软的饭</p><p>果不其然又隔着微信被莎司令指指点点 说要把汤换成黄瓜肉丝汤 晚上不要吃饭 让我重写菜谱再发一次</p><p>已经被从23开始到现在连续微信打搅了这么多天的我又炸毛了，虽然后来是发现我把老妈午饭和晚饭主食顺序弄反了</p><p>但是，真的很烦躁 受够了她的指指点点 </p><p>真的很想让在急救中心住院部那边住院的老妈转到天心阁来</p><p>那边实在是离我太远 我下班要坐城铁转地铁 穿越雨花 天心 最后到岳麓 之后坐地铁回到天心 来回耗时两小时。</p><p>但是我现在却什么能力都没有 很FIVE </p><p>得亏算是离得家近 要是真像当初离家一千里 还要受疫情管制</p><p>我估计会自闭得奔溃吧。</p><p>心里很烦 已经词穷了 </p><p>我真的很想拥有一天 或者半天也好的充电时间。但是在目前看来，是个奢望。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Record </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 海色狸の个人日志 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>九月23日以来</title>
+      <link href="2021/09/28/jiu-yue-23-ri-yi-lai/"/>
+      <url>2021/09/28/jiu-yue-23-ri-yi-lai/</url>
+      
+        <content type="html"><![CDATA[<p>妈妈摔伤住院 较为严重</p><p>感受到前所未有的压力与无助</p><p>负能量爆棚</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 世事 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Aboutme </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>SQLSERVER之不可避免的以零作除数错误</title>
+      <link href="2021/07/29/sqlserver-zhi-bu-ke-bi-mian-de-yi-ling-zuo-chu-shu-cuo-wu/"/>
+      <url>2021/07/29/sqlserver-zhi-bu-ke-bi-mian-de-yi-ling-zuo-chu-shu-cuo-wu/</url>
+      
+        <content type="html"><![CDATA[<p>老破烂系统中老板总会给出奇奇怪怪的查询条件<br>加上控件的限制 不得不使用临时表来进行数据更新</p><p>于是乎老板在某次给出的条件数据中</p><p><strong>有些数据某些条件下分母必定为零！！</strong>Orz </p><p>不会SQL的人儿只好开始用自己究极无敌烂的SQL语法来在SQL中添加条件：</p><p>原始语句与数据（恩..同事说不用拼音缩写他们看不懂- -）：</p><pre class="line-numbers language-sql" data-language="sql"><code class="language-sql"><span class="token comment">--更新满足率</span><span class="token keyword">UPDATE</span> Tmp<span class="token keyword">SET</span> Tmp<span class="token punctuation">.</span>PJ_DD_MZL <span class="token operator">=</span> <span class="token keyword">CONVERT</span><span class="token punctuation">(</span><span class="token keyword">FLOAT</span><span class="token punctuation">,</span>TMP<span class="token punctuation">.</span>DD_sftCount<span class="token punctuation">)</span><span class="token operator">/</span><span class="token keyword">CONVERT</span><span class="token punctuation">(</span><span class="token keyword">FLOAT</span><span class="token punctuation">,</span>TMP<span class="token punctuation">.</span>Amount<span class="token punctuation">)</span><span class="token punctuation">,</span>Tmp<span class="token punctuation">.</span>DD_XS_MZL <span class="token operator">=</span> <span class="token keyword">CONVERT</span><span class="token punctuation">(</span><span class="token keyword">FLOAT</span><span class="token punctuation">,</span>DD_MZXS<span class="token punctuation">)</span><span class="token operator">/</span><span class="token keyword">CONVERT</span><span class="token punctuation">(</span><span class="token keyword">FLOAT</span><span class="token punctuation">,</span>HJSQXS<span class="token punctuation">)</span><span class="token keyword">FROM</span> <span class="token comment">#tmp_Pjddmzl AS Tmp</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre><p><img src="https://pic.gksec.com/20210721/7GvNHvIV/loading.gif" data-original="https://pic.gksec.com/20210729/ddFSXAXf/image-20210729152235382.png" alt="原始数据"></p><p>最先开始想到的是将0置换为NULL</p><p>因为<strong>SQL SERVER 中NULL与任何数进行任何运算，其结果都等于NULL</strong></p><p>使用NULLIF(expression_1,expression_2)</p><p>若expression_1等于expression_2 则返回NULL</p><p>否则返回expression_1</p><pre class="line-numbers language-sql" data-language="sql"><code class="language-sql"><span class="token keyword">UPDATE</span> Tmp<span class="token keyword">SET</span> Tmp<span class="token punctuation">.</span>PJ_DD_MZL <span class="token operator">=</span> <span class="token keyword">NULLIF</span><span class="token punctuation">(</span><span class="token keyword">CONVERT</span><span class="token punctuation">(</span><span class="token keyword">FLOAT</span><span class="token punctuation">,</span>TMP<span class="token punctuation">.</span>DD_sftCount<span class="token punctuation">)</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">)</span><span class="token operator">/</span><span class="token keyword">CONVERT</span><span class="token punctuation">(</span><span class="token keyword">FLOAT</span><span class="token punctuation">,</span>TMP<span class="token punctuation">.</span>Amount<span class="token punctuation">)</span><span class="token punctuation">,</span>Tmp<span class="token punctuation">.</span>DD_XS_MZL <span class="token operator">=</span> <span class="token keyword">NULLIF</span><span class="token punctuation">(</span><span class="token keyword">CONVERT</span><span class="token punctuation">(</span><span class="token keyword">FLOAT</span><span class="token punctuation">,</span>DD_MZXS<span class="token punctuation">)</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">)</span><span class="token operator">/</span><span class="token keyword">CONVERT</span><span class="token punctuation">(</span><span class="token keyword">FLOAT</span><span class="token punctuation">,</span>HJSQXS<span class="token punctuation">)</span><span class="token keyword">FROM</span> <span class="token comment">#tmp_Pjddmzl AS Tmp</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre><p>用了一半发现在这个临时表中不允许NULL的存在…</p><p><img src="https://pic.gksec.com/20210721/7GvNHvIV/loading.gif" data-original="https://pic.gksec.com/20210729/h8nTWt1Q/image-20210729152214302.png" alt="报错惹QAQ"></p><p>= =于是本小笨蛋决定CASE：</p><pre class="line-numbers language-sql" data-language="sql"><code class="language-sql"><span class="token keyword">UPDATE</span> Tmp<span class="token keyword">SET</span> Tmp<span class="token punctuation">.</span>PJ_DD_MZL <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token keyword">CASE</span> Tmp<span class="token punctuation">.</span>DD_sftCount                         <span class="token keyword">WHEN</span> <span class="token number">0</span> <span class="token keyword">THEN</span> <span class="token number">0</span>                         <span class="token keyword">ELSE</span> <span class="token keyword">CONVERT</span><span class="token punctuation">(</span><span class="token keyword">FLOAT</span><span class="token punctuation">,</span> TMP<span class="token punctuation">.</span>DD_sftCount<span class="token punctuation">)</span> <span class="token operator">/</span> <span class="token keyword">CONVERT</span><span class="token punctuation">(</span><span class="token keyword">FLOAT</span><span class="token punctuation">,</span> TMP<span class="token punctuation">.</span>Amount<span class="token punctuation">)</span> <span class="token keyword">END</span><span class="token punctuation">)</span><span class="token punctuation">,</span>    Tmp<span class="token punctuation">.</span>DD_XS_MZL <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token keyword">CASE</span> Tmp<span class="token punctuation">.</span>HJSQXS <span class="token keyword">WHEN</span> <span class="token number">0</span> <span class="token keyword">THEN</span> <span class="token number">0</span> <span class="token keyword">ELSE</span> <span class="token keyword">CONVERT</span><span class="token punctuation">(</span><span class="token keyword">FLOAT</span><span class="token punctuation">,</span> DD_MZXS<span class="token punctuation">)</span> <span class="token operator">/</span> <span class="token keyword">CONVERT</span><span class="token punctuation">(</span><span class="token keyword">FLOAT</span><span class="token punctuation">,</span> HJSQXS<span class="token punctuation">)</span> <span class="token keyword">END</span><span class="token punctuation">)</span><span class="token keyword">FROM</span> <span class="token comment">#tmp_Pjddmzl AS Tmp</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><p><img src="https://pic.gksec.com/20210721/7GvNHvIV/loading.gif" data-original="https://pic.gksec.com/20210729/M4dgg3Om/image-20210729153835821.png" alt="UPDATE后的数据"></p><p>大功告成<DEL>（能用就行）</DEL></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 小 心 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> SQL </tag>
+            
+            <tag> 学习 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>一对多联合查询导致查询数量增加</title>
+      <link href="2021/07/29/yi-dui-duo-lian-he-cha-xun-dao-zhi-cha-xun-shu-liang-zeng-jia/"/>
+      <url>2021/07/29/yi-dui-duo-lian-he-cha-xun-dao-zhi-cha-xun-shu-liang-zeng-jia/</url>
+      
+        <content type="html"><![CDATA[<p>今天联合查询某条数据数量时，发现有些联合查询后数量会变多</p><p><img src="https://pic.gksec.com/20210721/7GvNHvIV/loading.gif" data-original="https://pic.gksec.com/20210729/SCVkHXgJ/image-20210729145144444.png" alt="错误的结果"></p><p>出现错误的语句：</p><pre class="line-numbers language-sql" data-language="sql"><code class="language-sql"><span class="token keyword">UPDATE</span> Tmp<span class="token keyword">SET</span> Tmp<span class="token punctuation">.</span>DD_sftCount <span class="token operator">=</span> ISNULL<span class="token punctuation">(</span>ImpSql<span class="token punctuation">.</span>Counts<span class="token punctuation">)</span><span class="token punctuation">,</span>Tmp<span class="token punctuation">.</span>DD_MZXS <span class="token operator">=</span> ISNULL<span class="token punctuation">(</span>ImpSql<span class="token punctuation">.</span>ItemsCounts<span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">)</span><span class="token keyword">FROM</span> <span class="token comment">#tmp_Pjddmzl AS Tmp</span><span class="token keyword">LEFT</span> <span class="token keyword">JOIN</span> <span class="token punctuation">(</span><span class="token keyword">SELECT</span> a<span class="token punctuation">.</span>GuestId<span class="token punctuation">,</span><span class="token function">COUNT</span><span class="token punctuation">(</span>a<span class="token punctuation">.</span>ID<span class="token punctuation">)</span> <span class="token keyword">AS</span> Counts<span class="token punctuation">,</span><span class="token function">COUNT</span><span class="token punctuation">(</span>b<span class="token punctuation">.</span>RepairSpecApplyId<span class="token punctuation">)</span> <span class="token keyword">AS</span> ItemsCounts    <span class="token keyword">FROM</span> Service_RepairSpecApply <span class="token keyword">AS</span> a    <span class="token keyword">LEFT</span> <span class="token keyword">JOIN</span> Service_RepairSpecApply_Items <span class="token keyword">AS</span> b <span class="token keyword">ON</span> b<span class="token punctuation">.</span>RepairSpecApplyId <span class="token operator">=</span> a<span class="token punctuation">.</span>ID    <span class="token keyword">GROUP</span> <span class="token keyword">BY</span> a<span class="token punctuation">.</span>GuestId<span class="token punctuation">)</span><span class="token keyword">AS</span> ImpSql <span class="token keyword">ON</span> ImpSql<span class="token punctuation">.</span>GuestId <span class="token operator">=</span> Tmp<span class="token punctuation">.</span>GuestId<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><p><strong>查阅资料时突然想到</strong></p><p>Service_RepairSpecApply与Service_RepairSpecApply_Items是<strong>一对多</strong>的对应关系，<strong>查询中主表会有多个Items</strong>，故Counts列会重复。</p><p>需要使用<strong>DISTINCT</strong>或者<strong>GROUP BY</strong>等进行去重或转化为聚合查询</p><p>修改后：</p><pre class="line-numbers language-sql" data-language="sql"><code class="language-sql"><span class="token keyword">UPDATE</span> Tmp<span class="token keyword">SET</span> Tmp<span class="token punctuation">.</span>DD_sftCount <span class="token operator">=</span> ISNULL<span class="token punctuation">(</span>ImpSql<span class="token punctuation">.</span>Counts<span class="token punctuation">)</span><span class="token punctuation">,</span>Tmp<span class="token punctuation">.</span>DD_MZXS <span class="token operator">=</span> ISNULL<span class="token punctuation">(</span>ImpSql<span class="token punctuation">.</span>ItemsCounts<span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">)</span><span class="token keyword">FROM</span> <span class="token comment">#tmp_Pjddmzl AS Tmp</span><span class="token keyword">LEFT</span> <span class="token keyword">JOIN</span> <span class="token punctuation">(</span><span class="token keyword">SELECT</span> a<span class="token punctuation">.</span>GuestId<span class="token punctuation">,</span><span class="token function">COUNT</span><span class="token punctuation">(</span><span class="token keyword">DISTINCT</span> a<span class="token punctuation">.</span>ID<span class="token punctuation">)</span> <span class="token keyword">AS</span> Counts<span class="token punctuation">,</span><span class="token function">COUNT</span><span class="token punctuation">(</span>b<span class="token punctuation">.</span>RepairSpecApplyId<span class="token punctuation">)</span> <span class="token keyword">AS</span> ItemsCounts    <span class="token keyword">FROM</span> Service_RepairSpecApply <span class="token keyword">AS</span> a    <span class="token keyword">LEFT</span> <span class="token keyword">JOIN</span> Service_RepairSpecApply_Items <span class="token keyword">AS</span> b <span class="token keyword">ON</span> b<span class="token punctuation">.</span>RepairSpecApplyId <span class="token operator">=</span> a<span class="token punctuation">.</span>ID    <span class="token keyword">GROUP</span> <span class="token keyword">BY</span> a<span class="token punctuation">.</span>GuestId<span class="token punctuation">)</span><span class="token keyword">AS</span> ImpSql <span class="token keyword">ON</span> ImpSql<span class="token punctuation">.</span>GuestId <span class="token operator">=</span> Tmp<span class="token punctuation">.</span>GuestId<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><p>结果：</p><p><img src="https://pic.gksec.com/20210721/7GvNHvIV/loading.gif" data-original="https://pic.gksec.com/20210729/aaYYUDjX/image-20210729145558687.png" alt="正确的结果"></p><p>手撸SQL真的好累阿(～﹃～)~zZ</p><p>表数量一多一犯迷糊就会出问题＞︿＜</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 小 心 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> SQL </tag>
+            
+            <tag> 学习 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>JsDelivr突然404</title>
+      <link href="2021/07/27/jsdelivr-tu-ran-404/"/>
+      <url>2021/07/27/jsdelivr-tu-ran-404/</url>
+      
+        <content type="html"><![CDATA[<p>JsDelivr在我添加了ASP那篇文章后突然大量404</p><p><img src="https://pic.gksec.com/20210721/7GvNHvIV/loading.gif" data-original="https://pic.gksec.com/20210727/Fh2phT5E/image-20210727174714750.png" alt="突然爆红"></p><p>注释后问题解决</p><p>原因未知。。</p><p><img src="https://pic.gksec.com/20210721/7GvNHvIV/loading.gif" data-original="https://pic.gksec.com/20210727/2yb78gm4/image-20210727174737728.png" alt="注释JsDelivr"></p><p>..</p><p>最终发现CDN地址后莫名其妙多了一根斜杠 去除后解决</p><p><img src="https://pic.gksec.com/20210721/7GvNHvIV/loading.gif" data-original="https://pic.gksec.com/20210727/6s3JvwaT/image-20210727175822142.png" alt="奇怪的斜杠"></p><p>但是有的没有斜杠还是会404。。故推测是jsdelivr抽风</p><p><strong>–20211208补充</strong></p><p>看似jsdelivr抽风</p><p>实则是dns污染导致的错误定向（持续了很长一段时间</p><p><strong>–20211231</strong></p><p>前段时间jsdelivr直接大炸了一波orz </p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 翻车记录 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> CDN </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>ASP.NET GridView 根据数据动态生成BoundField</title>
+      <link href="2021/07/27/asp-net-gridview-gen-ju-shu-ju-dong-tai-sheng-cheng-boundfield/"/>
+      <url>2021/07/27/asp-net-gridview-gen-ju-shu-ju-dong-tai-sheng-cheng-boundfield/</url>
+      
+        <content type="html"><![CDATA[<p>公司系统是一个缝缝补补又一年</p><p>随着业务量与数据量增加而越来越拉的远古ASP.NET系统</p><p>许许多多特性都被公司自己的组件和WebForm本身的组件限制得死死的</p><p>再结合甲方各种奇葩要求，有些数据甚至只能够通过建立临时表的形式再分别插入</p><p>有些sql代码久远且缺乏维护，甚至大量使用SQL进行计算，联合查询量巨大，系统速度也很慢，</p><p>数据表结构缺乏规范，查询某项数据需要大量联合查询，无数据字典，同事命名过于放飞自我，甲方需要的数据动不动就需要联合查询很大一部分表，且手写SQL语句，每天都在怀疑人生<DEL>（河里摸鱼）</DEL></p><p>以下是死亡代码展示（大雾）：</p><p><img src="https://pic.gksec.com/20210721/7GvNHvIV/loading.gif" data-original="https://pic.gksec.com/20210727/xVmyDhLg/image-20210727165130701.png" alt="同事的死亡SQL（部分）"></p><p><img src="https://pic.gksec.com/20210721/7GvNHvIV/loading.gif" data-original="https://pic.gksec.com/20210727/fXkhEE9U/image-20210727165219684.png" alt="万物皆可Business（啥都叫这名字找东西可有被累到）"></p><p>BoundField 本身是ASP.NET GridView 表格控件的一部分。</p><p>通过绑定数据源生成数据，控件的初衷自然而然是为了简化操作。</p><p>由于对ASP远古控件<strong>巨</strong>不熟悉且。。</p><p>本着<strong>不影响老板赚钱</strong>缝缝补补继续使用的原则（x）</p><p>可能只能用一些蠢蠢的办法<DEL>（也有可能是因为自己蠢蠢吧 不过ASP放到今天真的是yue）</DEL></p><p>公司的表格依赖于自定义控件，基于GridView，通过接收后台返回DataTable呈现数据。</p><p>而甲方想要根据某分类来动态生成表格，受限于只能使用公司控件</p><p>又想着反正量不大（应该）能用就行（x）</p><p>结合<a href="https://docs.microsoft.com/en-us/dotnet/api/system.web.ui.webcontrols.boundfield?view=netframework-4.0&f1url=%3FappId%3DDev16IDEF1%26l%3DZH-CN%26k%3Dk(System.Web.UI.WebControls.BoundField);k(SolutionItemsProject);k(SolutionItemsProject);k(TargetFrameworkMoniker-.NETFramework,Version%253Dv4.0);k(DevLang-csharp)%26rd%3Dtrue">官方文档</a></p><p>发现可以在后台新建BoundField对象并通过属性对应赋值，从而达到ASP.NET动态生成表格的目的。</p><hr><p>嗯。。。</p><p>直接SELECT:</p><pre class="line-numbers language-c#" data-language="c#"><code class="language-c#">public int QueryMsfsAreaDivi_Gj_ColCounts()&#123;    string excSql &#x3D; &quot;SELECT Count(DISTINCT dbo.f_GetTopParentTypeName(a.typeId,&#39;&#39;)) as TopTypeNum &quot; +        &quot;FROM Specifications AS a&quot;;    return (int)DtQuery(excSql).Rows[0][&quot;TopTypeNum&quot;];&#125;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><p>查询SQL通过高端<DEL>不经过思考</DEL>的循环加上对应列：</p><pre class="line-numbers language-C#" data-language="C#"><code class="language-C#"> int ColCounts &#x3D; QueryMsfsAreaDivi_Gj_ColCounts();        string ColCountsSql &#x3D; &quot;&quot;;        for (int i &#x3D; 0; i &lt;ColCounts; i++)        &#123;            if (i &#x3D;&#x3D; ColCounts - 1)            &#123;                ColCountsSql +&#x3D; &quot;0 AS TypeName_&quot; + i + &quot;&quot;;                break;            &#125;            ColCountsSql +&#x3D; &quot;0 AS TypeName_&quot; + i + &quot;,&quot;;        &#125;..............  sql &#x3D; &quot;SELECT DISTINCT ISNULL(Area.AreaName1,&#39;&#39;)AS Region,a.DeviceArea,0 AS InGuaranteesDateNum,0 AS NotInGuaranteesDateNum,0 AS AllNum,&quot; +            &quot;&quot;+ColCountsSql+&quot; &quot; +..............<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><p>再使用在后台根据SELECT数量New BoundField，并设置对应的DataField（如果DataField与数据源（Datatable）不一致控件就会报错）：</p><pre class="line-numbers language-c#" data-language="c#"><code class="language-c#">private void InitGrid(string order)&#123;    for (int i &#x3D; 0; i &lt; ColCounts; i++)    &#123;        ColCountsNames &#x3D; &quot;TypeName_&quot; + i.ToString();        BoundField DynamicGeCols &#x3D; new BoundField        &#123;            HeaderText &#x3D; ColCountsNames,            DataField &#x3D; ColCountsNames,            DataFormatString &#x3D; &quot;&#123;0:0&#125;&quot;,            HtmlEncode &#x3D; false,            SortExpression &#x3D; ColCountsNames        &#125;;        GvData.Columns.Add(DynamicGeCols);    &#125;    PageNavigator1.Total &#x3D; 1;    PageNavigator1.SetCurPage(1);    PageNavigator1.ForceQueryAll &#x3D; true;    PageNavigator1.Query &#x3D; ServiceFactory.getServiceAccount().QueryMsfsAreaDivi_Gj(stDept.Value, ddlType.SelectedValue, ddlYear.SelectedValue, ddlMonth.SelectedValue, &quot;&quot;, FormHelper.GetClientIPEx(), true).ToString();&#125;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><p>效果如下：</p><p><img src="https://pic.gksec.com/20210721/7GvNHvIV/loading.gif" data-original="https://pic.gksec.com/20210727/lYSNLboV/image-20210727170323263.png" alt="效果图"></p><p>嗯。。。每天都不知道自己在跟这帮沙雕SQL和同事沙雕代码较什么劲。。<DEL>（已经穿越回十年前了）</DEL></p><p><DEL>至于列名的话。。马上就下班点了 摸鱼Time摸鱼Time！</DEL></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 笔记 </category>
+          
+          <category> 原创文章 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> ASP.NET </tag>
+            
+            <tag> C# </tag>
+            
+            <tag> SQL </tag>
+            
+            <tag> 考古 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Bitlocker加密的硬盘无法迁移系统</title>
+      <link href="2021/07/23/bitlocker-jia-mi-de-ying-pan-wu-fa-qian-yi-xi-tong/"/>
+      <url>2021/07/23/bitlocker-jia-mi-de-ying-pan-wu-fa-qian-yi-xi-tong/</url>
+      
+        <content type="html"><![CDATA[<p>前段时间给一台华硕adol(走pciex2的老M2，不支持NVME，默认出厂是辣鸡OEM金士顿256G，最后折中选择了SATA协议M2固态)</p><p>以接固态硬盘盒的方式</p><p>更换新固态做系统迁移</p><p>结果迁移的时候发现迁移速度极慢，纵使整个盘能正常克隆，但是却无法识别，更别说引导系统了</p><p>BitLocker概述：</p><p><a href="https://docs.microsoft.com/zh-cn/windows/security/information-protection/bitlocker/bitlocker-overview">https://docs.microsoft.com/zh-cn/windows/security/information-protection/bitlocker/bitlocker-overview</a></p><p>最终通过控制面板BitLocker页手动<DEL>（通宵挂机）</DEL>解除BitLocker之后成功完成迁移并替换了固态硬盘</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 翻车记录 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 丢人 </tag>
+            
+            <tag> 搞机 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hexo-matery主题添加分类卡片</title>
+      <link href="2021/07/20/hexo-matery-zhu-ti-tian-jia-fen-lei-qia-pian/"/>
+      <url>2021/07/20/hexo-matery-zhu-ti-tian-jia-fen-lei-qia-pian/</url>
+      
+        <content type="html"><![CDATA[<p>这次在matery上配置了一个小可爱插件</p><p>hexo-magnet！</p><p>这里是原项目地址！</p><p><a href="https://github.com/Zfour/hexo-magnet">https://github.com/Zfour/hexo-magnet</a></p><p><DEL>总感觉butterfly主题和matery很类似呢</DEL></p><p>配置方式很简单</p><h4 id="首先NPM"><a href="#首先NPM" class="headerlink" title="首先NPM"></a>首先NPM</h4><pre class="line-numbers language-powershell" data-language="powershell"><code class="language-powershell">npm i hexo<span class="token operator">-</span>magnet <span class="token operator">--</span>save<span class="token comment"># 或者</span>cnpm i hexo<span class="token operator">-</span>magnet <span class="token operator">--</span>save<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre><h4 id="配置根目录-config-yml"><a href="#配置根目录-config-yml" class="headerlink" title="配置根目录_config.yml"></a>配置根目录_config.yml</h4><p><strong>非主题目录下的 _config.yml</strong> </p><p>举个🌰：</p><pre class="line-numbers language-YAML" data-language="YAML"><code class="language-YAML">#hexo-magnet插件 当前放置于主页magnet:  enable: true  priority: 1  enable_page: &#x2F;  type: categories  devide: 2  display:    - name: 搞事      display_name: 搞事什么的最有趣啦！      icon: 🤣    - name: 安利      display_name: 食我安利啦！！      icon: 🎮    - name: 摸鱼      display_name: 摸鱼才是真正的赚钱！      icon: 🐟    - name: 关于      display_name: 宁在康什么QAQ！      icon: 🥕  color_setting:    text_color: black    text_hover_color: white    background_color: &quot;#f2f2f2&quot;    background_hover_color: &quot;linear-gradient( 135deg, #91EAE4,#86A8E7,#7F7FD5)&quot;  layout:    type: id    name: recent-posts    index: 0  temple_html: &#39;&lt;div class&#x3D;&quot;recent-post-item&quot; style&#x3D;&quot;width:100%;height: auto&quot;&gt;&lt;div id&#x3D;&quot;catalog_magnet&quot;&gt;$&#123;temple_html_item&#125;&lt;&#x2F;div&gt;&lt;&#x2F;div&gt;&#39;  plus_style: &quot;&quot;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><p>type是标签们的筛选方式，如果要筛选标签而不是分类的话将其改为tags就可以了<DEL>（废话）</DEL></p><p>在这里，我修改了background_hover_color配置项，以适配我主题颜色</p><p>其余各项可以参照作者项目地址中的<strong>配置项</strong>含义</p><p><strong>每次修改config记得三连哦</strong></p><pre class="line-numbers language-powershell" data-language="powershell"><code class="language-powershell">hexo clean &amp;&amp; hexo g &amp;&amp; hexo s<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h4 id="引用方式："><a href="#引用方式：" class="headerlink" title="引用方式："></a>引用方式：</h4><p>（如需修改插件id可以修改配置项layout）=&gt;<DEL>因为偷懒并没有去尝试这条（？）</DEL></p><pre class="line-numbers language-HTML" data-language="HTML"><code class="language-HTML">&lt;div class&#x3D;&quot;recent-posts&quot; id&#x3D;&quot;recent-posts&quot;&gt;&lt;&#x2F;div&gt;<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>可以新建单独的卡片，也可以直接插入现有卡片card-content之中（直接插入现有注意根据显示优先级从上往下放置）</p><p>举个🌰：</p><p>在需要引用的页面新建card并单独加入组件</p><pre class="line-numbers language-HTML" data-language="HTML"><code class="language-HTML">&lt;div class&#x3D;&quot;card&quot;&gt;    &lt;div class&#x3D;&quot;card-content&quot;&gt;        &lt;div class&#x3D;&quot;recent-posts&quot; id&#x3D;&quot;recent-posts&quot;&gt;&lt;&#x2F;div&gt;    &lt;&#x2F;div&gt;&lt;&#x2F;div&gt;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre><p>同时，为了保持与matery原有卡片的自适应，务必将标签放在container以内</p><pre class="line-numbers language-HTML" data-language="HTML"><code class="language-HTML">&lt;div class&#x3D;&quot;container &quot;&gt;    &lt;div class&#x3D;&quot;card&quot;&gt;        &lt;div class&#x3D;&quot;card-content&quot;&gt;            &lt;div class&#x3D;&quot;recent-posts&quot; id&#x3D;&quot;recent-posts&quot;&gt;&lt;&#x2F;div&gt;        &lt;&#x2F;div&gt;    &lt;&#x2F;div&gt;&lt;&#x2F;div&gt;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><h4 id="效果如下："><a href="#效果如下：" class="headerlink" title="效果如下："></a>效果如下：</h4><p>新建单独卡片：</p><p><img src="https://pic.gksec.com/20210721/7GvNHvIV/loading.gif" data-original="https://pic.gksec.com/20210720/b0jmD34Z/image-20210720154154363.png" alt="image-20210720154154363"></p><p>插入现有卡片：<br><img src="https://pic.gksec.com/20210721/7GvNHvIV/loading.gif" data-original="https://pic.gksec.com/20210720/BLlzl8Nm/image-20210720154300592.png" alt="image-20210720154300592"></p><h4 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h4><p>确认没问题之后三连部署就可以啦！！</p><pre class="line-numbers language-powershell" data-language="powershell"><code class="language-powershell">hexo clean &amp;&amp; hexo g &amp;&amp; hexo d<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> 博客DIY </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Hexo </tag>
+            
+            <tag> 教程 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>dotNET CLI的使用</title>
+      <link href="2021/07/19/dotnet-cli-de-shi-yong/"/>
+      <url>2021/07/19/dotnet-cli-de-shi-yong/</url>
+      
+        <content type="html"><![CDATA[<p>记录一些常见的.NET CLI命令</p><h2 id="创建"><a href="#创建" class="headerlink" title="创建"></a>创建</h2><pre class="line-numbers language-.NET&nbsp;CLI" data-language=".NET&nbsp;CLI"><code class="language-.NET&nbsp;CLI">dotnet new [arguments]<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h4 id="创建解决方案并命名"><a href="#创建解决方案并命名" class="headerlink" title="创建解决方案并命名"></a>创建解决方案并命名</h4><pre class="line-numbers language-.NET&nbsp;CLI" data-language=".NET&nbsp;CLI"><code class="language-.NET&nbsp;CLI">dotnet new sln -n|--name [slnName]<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h4 id="将项目添加到解决方案"><a href="#将项目添加到解决方案" class="headerlink" title="将项目添加到解决方案"></a>将项目添加到解决方案</h4><pre class="line-numbers language-.NET&nbsp;CLI" data-language=".NET&nbsp;CLI"><code class="language-.NET&nbsp;CLI">dotnet sln [slnName] add [.csproj]<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h4 id="枚举解决方案已包含的项目"><a href="#枚举解决方案已包含的项目" class="headerlink" title="枚举解决方案已包含的项目"></a>枚举解决方案已包含的项目</h4><pre class="line-numbers language-.NET&nbsp;CLI" data-language=".NET&nbsp;CLI"><code class="language-.NET&nbsp;CLI">dotnet sln list<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h4 id="移除解决方案已包含的项目"><a href="#移除解决方案已包含的项目" class="headerlink" title="移除解决方案已包含的项目"></a>移除解决方案已包含的项目</h4><pre class="line-numbers language-.NET&nbsp;CLI" data-language=".NET&nbsp;CLI"><code class="language-.NET&nbsp;CLI">dotnet sln remove [projectPATH]<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h2 id="项目编译"><a href="#项目编译" class="headerlink" title="项目编译"></a>项目编译</h2><pre class="line-numbers language-.NET&nbsp;CLI" data-language=".NET&nbsp;CLI"><code class="language-.NET&nbsp;CLI">dotnet build [project]dotnet -c|--configuration [Debug|Release]<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><h2 id="项目运行"><a href="#项目运行" class="headerlink" title="项目运行"></a>项目运行</h2><pre class="line-numbers language-.NET&nbsp;CLI" data-language=".NET&nbsp;CLI"><code class="language-.NET&nbsp;CLI">dotnet run [project]<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> 笔记 </category>
+          
+          <category> 原创文章 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 学习 </tag>
+            
+            <tag> .NET </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Visual Studio 2005无法读取旧项目文件</title>
+      <link href="2021/03/29/visual-studio-2005-wu-fa-du-qu-jiu-xiang-mu-wen-jian/"/>
+      <url>2021/03/29/visual-studio-2005-wu-fa-du-qu-jiu-xiang-mu-wen-jian/</url>
+      
+        <content type="html"><![CDATA[<p><img src="https://pic.gksec.com/20210721/7GvNHvIV/loading.gif" data-original="https://pic.gksec.com/2021/04/25/4775fbd71db76/image-20210329092039232.png" alt="image-20210329092039232"></p><p>找到安装文件点Set-Up打开</p><p><strong>选修复进入维护模式 也通通没有用！</strong></p><p>原因是新版win10不兼容vs2005</p><p>在<strong>启用或关闭windows功能</strong>中配置启用<strong>IIS6兼容性</strong>问题解决</p><p>（但不是长久之计</p><p><img src="https://pic.gksec.com/20210721/7GvNHvIV/loading.gif" data-original="https://pic.gksec.com/2021/04/25/ff5c46790a04e/image-20210329102817404.png" alt="image-20210329102817404"></p><p>所以还是装虚拟机吧(滑稽)。（顺带吐槽一下SVN,commit会直接提交不说，冲突处理也没有提示，插件还会拉vs后腿</p><p><img src="https://pic.gksec.com/20210721/7GvNHvIV/loading.gif" data-original="https://pic.gksec.com/2021/04/25/31b80191d5ce9/image-20210329122120253.png" alt="image-20210329122120253"></p><p>支 持 最 新 的 硬 件 和 软 件 产 品（指vs2005</p><p><img src="https://pic.gksec.com/20210721/7GvNHvIV/loading.gif" data-original="https://pic.gksec.com/2021/04/25/632e3be1a1be2/image-20210329122331181.png" alt="image-20210329122331181"></p><p><img src="https://pic.gksec.com/20210721/7GvNHvIV/loading.gif" data-original="https://pic.gksec.com/2021/04/25/12a4f7d0ae24f/image-20210329123328686.png" alt="image-20210329123328686"></p><p><img src="https://pic.gksec.com/20210721/7GvNHvIV/loading.gif" data-original="https://pic.gksec.com/2021/04/25/d783e97902e90/image-20210329094422173.png" alt="image-20210329094422173"></p><p><img src="https://pic.gksec.com/20210721/7GvNHvIV/loading.gif" data-original="https://pic.gksec.com/2021/04/25/d4ee0fcd0511c/image-20210329094634265.png" alt="司 马 脸"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 翻车记录 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 考古 </tag>
+            
+            <tag> Visual Studio </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>调整Visual Studio 2005深色配色</title>
+      <link href="2021/03/24/diao-zheng-visual-studio-2005-shen-se-pei-se/"/>
+      <url>2021/03/24/diao-zheng-visual-studio-2005-shen-se-pei-se/</url>
+      
+        <content type="html"><![CDATA[<p>公司的项目比较<strong>toooooooooooooooo old</strong></p><p>使用新vs升级打开公司项目后会出现版本兼容问题而无法通过编译</p><p>被迫使用<strong>vs2005</strong>（超级难用，很蠢蠢的版本）来写公司<strong>ASP</strong></p><p>以前的vs界面相对来说不是那么cool(纯白比较辣眼睛)</p><p>于是简单修改配色，导出并整理了自己的配色</p><p>附链接：</p><p>链接：<a href="https://pan.baidu.com/s/1xM5ZF4T_gAOevsyyywxHmg">https://pan.baidu.com/s/1xM5ZF4T_gAOevsyyywxHmg</a><br>提取码：phjb<br>复制这段内容后打开百度网盘手机App，操作更方便哦</p><h3 id="导入教程："><a href="#导入教程：" class="headerlink" title="导入教程："></a>导入教程：</h3><p><img src="https://pic.gksec.com/20210721/7GvNHvIV/loading.gif" data-original="https://pic.gksec.com/2021/03/24/8cd0612d520f5/image-20210324092819504.png" alt="image-20210324092819504"></p><p><img src="https://pic.gksec.com/20210721/7GvNHvIV/loading.gif" data-original="https://pic.gksec.com/2021/03/24/a0d4a6418ec43/image-20210324092905344.png" alt="image-20210324092905344"></p><p><img src="https://pic.gksec.com/20210721/7GvNHvIV/loading.gif" data-original="https://pic.gksec.com/2021/03/24/f2e92fab9abbe/image-20210324092943420.png" alt="image-20210324092943420"></p><p><img src="https://pic.gksec.com/20210721/7GvNHvIV/loading.gif" data-original="C:%5CUsers%5CSeacolorfox%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210324093037414.png" alt="image-20210324093037414"></p><p><img src="https://pic.gksec.com/20210721/7GvNHvIV/loading.gif" data-original="https://pic.gksec.com/2021/03/24/64651bc563f80/image-20210324093115251.png" alt="image-20210324093115251"></p><p>**tips： 因为每个人显示器由于各种原因显示可能会有偏差（或辣眼睛</p><p>所以可以修改<strong>项背景色</strong> 调出稍微暗淡一点的黑色（视自己感受调整</p><p><img src="https://pic.gksec.com/20210721/7GvNHvIV/loading.gif" data-original="C:%5CUsers%5CSeacolorfox%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210324094116780.png" alt="image-20210324094116780"></p><h3 id="前后对比"><a href="#前后对比" class="headerlink" title="前后对比"></a>前后对比</h3><p><img src="https://pic.gksec.com/20210721/7GvNHvIV/loading.gif" data-original="https://pic.gksec.com/2021/03/24/032632671acf0/image-20210324093812610.png" alt="image-20210324093812610"></p><p><img src="https://pic.gksec.com/20210721/7GvNHvIV/loading.gif" data-original="https://pic.gksec.com/2021/03/24/d530758298de0/image-20210324101010854.png" alt="image-20210324101010854"></p><p>效果虽然还是一言难尽- - <strong>似乎不能调整IDE主题色彩</strong></p><p><del>不得不吐槽1202年了还有ASP</del></p><p><del>不能用docker还得用ssms</del></p><p><del>还不支持Linq</del></p><p><del>很难受就是了</del></p><p><img src="https://pic.gksec.com/20210721/7GvNHvIV/loading.gif" data-original="https://pic.gksec.com/2021/04/06/e8bdd060c240a/emoticons_pic_01.jpg" alt="Emoticons_pic_01"></p><p><a href="https://studiostyl.es/">https://studiostyl.es/</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 笔记 </category>
+          
+          <category> 原创文章 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 考古 </tag>
+            
+            <tag> Visual Studio </tag>
+            
+            <tag> DIY </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Xbox Series X 4K主题提取壁纸</title>
+      <link href="2021/03/03/xbox-series-x-4k-zhu-ti-ti-qu-bi-zhi/"/>
+      <url>2021/03/03/xbox-series-x-4k-zhu-ti-ti-qu-bi-zhi/</url>
+      
+        <content type="html"><![CDATA[<p><strong>基于微软2020年4月份发布的新主题 “Xbox Series X” 提取而来的4K壁纸~</strong></p><blockquote><p>​    Customize your desktop with stunning images of the Xbox Series X, the most powerful console ever. These 16 premium, 4k images are free for Windows 10. These images are to be used as desktop wallpaper only.</p></blockquote><p><img src="https://pic.gksec.com/20210721/7GvNHvIV/loading.gif" data-original="https://pic.gksec.com/2021/02/20/3aa796406457a/01%20xboxseriesx_crop_drkbg_16x9_rgb_resized.jpg" alt="01 xboxseriesx_crop_drkbg_16x9_rgb_resized.jpg"></p><p><img src="https://pic.gksec.com/20210721/7GvNHvIV/loading.gif" data-original="https://pic.gksec.com/2021/02/20/d786251ecf9e4/02%20xboxseriesx_frontortho_dkbg_16x9_crop_rgb_resized.jpg" alt="02 xboxseriesx_frontortho_dkbg_16x9_crop_rgb_resized.jpg"></p><p><img src="https://pic.gksec.com/20210721/7GvNHvIV/loading.gif" data-original="https://pic.gksec.com/2021/02/20/4517606252057/03%20xboxseriesx_tech_chassis_mkt_wbrand_16x9_rgb_resized.jpg" alt="03 xboxseriesx_tech_chassis_mkt_wbrand_16x9_rgb_resized"></p><p><img src="https://pic.gksec.com/20210721/7GvNHvIV/loading.gif" data-original="https://pic.gksec.com/2021/02/20/b5677c506ae79/04%20xbox201_resized.jpg" alt="04 xbox201_resized"></p><p><img src="https://pic.gksec.com/20210721/7GvNHvIV/loading.gif" data-original="https://pic.gksec.com/2021/02/20/a1a4aeb2bb43f/05%20xboxse4_resized.jpg" alt="05 xboxse4_resized"></p><p><img src="https://pic.gksec.com/20210721/7GvNHvIV/loading.gif" data-original="https://pic.gksec.com/2021/02/20/634c4e250cc8b/06%20xbox2020_cntlr_tiltedports_mkt_16x9_rgb__resized.jpg" alt="06 xbox2020_cntlr_tiltedports_mkt_16x9_rgb__resized"></p><p><img src="https://pic.gksec.com/20210721/7GvNHvIV/loading.gif" data-original="https://pic.gksec.com/2021/02/20/c15d640f5f664/07%20xboxseriesx_tech_ext_storage_mkt_16x9_rgb_resized.jpg" alt="07 xboxseriesx_tech_ext_storage_mkt_16x9_rgb_resized"></p><p><img src="https://pic.gksec.com/20210721/7GvNHvIV/loading.gif" data-original="https://pic.gksec.com/2021/02/20/76394b317d20c/08%20xbox2020_cntlr_dpad_mkt_16x9_rgb_resized.jpg" alt="08 xbox2020_cntlr_dpad_mkt_16x9_rgb_resized"></p><p><img src="https://pic.gksec.com/20210721/7GvNHvIV/loading.gif" data-original="https://pic.gksec.com/2021/02/20/43f6c0d3126fc/09%20xboxseriesx_tech_explode_mkt_16x9_rgb_resized.jpg" alt="09 xboxseriesx_tech_explode_mkt_16x9_rgb_resized"></p><p><img src="https://pic.gksec.com/20210721/7GvNHvIV/loading.gif" data-original="https://pic.gksec.com/2021/02/20/f3d35636b8881/10%20xbox2020_cntlr_top_mkt_16x9_rgb_resized.jpg" alt="10 xbox2020_cntlr_top_mkt_16x9_rgb_resized"></p><p><img src="https://pic.gksec.com/20210721/7GvNHvIV/loading.gif" data-original="https://pic.gksec.com/2021/02/20/0bd240e2e1b73/11%20xboxseriesx_tech_split_mobo_007_mkt_16x9_rgb_resized.jpg" alt="11 xboxseriesx_tech_split_mobo_007_mkt_16x9_rgb_resized"></p><p><img src="https://pic.gksec.com/20210721/7GvNHvIV/loading.gif" data-original="https://pic.gksec.com/2021/02/20/c93a84e063c46/12%20xbox2020_cntlr_hero_mkt_16x9_rgb_resized.jpg" alt="12 xbox2020_cntlr_hero_mkt_16x9_rgb_resized"></p><p><img src="https://pic.gksec.com/20210721/7GvNHvIV/loading.gif" data-original="https://pic.gksec.com/2021/02/20/d109bc3ab47c4/13%20xboxseriesx_tech_soc_closeup_3q4_mkt_wbrand_16x9_rgb.jpg" alt="13 xboxseriesx_tech_soc_closeup_3q4_mkt_wbrand_16x9_rgb"></p><p><img src="https://pic.gksec.com/20210721/7GvNHvIV/loading.gif" data-original="https://pic.gksec.com/2021/02/20/eea47736572eb/14%20xbox2020_cntlr_trigger_mkt_16x9_rgb_resized.jpg" alt="14 xbox2020_cntlr_trigger_mkt_16x9_rgb_resized"></p><p><img src="https://pic.gksec.com/20210721/7GvNHvIV/loading.gif" data-original="https://pic.gksec.com/2021/02/20/260d137dbc24e/15%20xboxseriesx_tech_soc_022_mkt_wbrand_16x9_rgb_resized.jpg" alt="15 xboxseriesx_tech_soc_022_mkt_wbrand_16x9_rgb_resized"></p><p><img src="https://pic.gksec.com/20210721/7GvNHvIV/loading.gif" data-original="https://pic.gksec.com/2021/02/20/e9972aa585748/16%20xboxseriesx_anr_crop_drkbg_16x9_rgb_resized.jpg" alt="16 xboxseriesx_anr_crop_drkbg_16x9_rgb_resized"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 安利 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 主机 </tag>
+            
+            <tag> 安利 </tag>
+            
+            <tag> 4K </tag>
+            
+            <tag> Photo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>git配置密钥后提交却还是需要帐号密码</title>
+      <link href="2021/01/30/git-pei-zhi-mi-yao-hou-ti-jiao-que-huan-shi-xu-yao-zhang-hao-mi-ma/"/>
+      <url>2021/01/30/git-pei-zhi-mi-yao-hou-ti-jiao-que-huan-shi-xu-yao-zhang-hao-mi-ma/</url>
+      
+        <content type="html"><![CDATA[<p>大概率原因还是远程连接方式的问题。</p><p><strong>如果是hexo，若修改配置后还是走https的话可以检查_config.yml，</strong></p><p><strong>修改deploy，去除https，改为</strong></p><pre class="line-numbers language-none"><code class="language-none">git@github.com:USERNAME&#x2F;REPOSITORY.git<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h3 id="检查全局配置"><a href="#检查全局配置" class="headerlink" title="检查全局配置"></a>检查全局配置</h3><p>确保用户名邮箱等配置正确</p><pre class="line-numbers language-sh" data-language="sh"><code class="language-sh">git config --global  --list<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h3 id="检查ssh-agent是否正常运行"><a href="#检查ssh-agent是否正常运行" class="headerlink" title="检查ssh-agent是否正常运行"></a>检查ssh-agent是否正常运行</h3><pre class="line-numbers language-shell" data-language="shell"><code class="language-shell">eval &quot;$(ssh-agent -s)&quot;<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>确保在<strong>ssh-agent</strong>正常运行的情况下</p><p>确保SSH密钥邮箱配置正确</p><h3 id="查看当前远程URL"><a href="#查看当前远程URL" class="headerlink" title="查看当前远程URL"></a>查看当前<strong>远程URL</strong></h3><pre class="line-numbers language-shell" data-language="shell"><code class="language-shell">git remote -v<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>若“origin”后的链接开头为https，毫无疑问，当前没有使用SSH。</p><p>需要进行更改才可使用SSH，从而使用免密登陆。</p><p><strong>确保是.git后缀</strong></p><blockquote><ol><li><p>打开 Git Bash。</p></li><li><p>将当前工作目录更改为您的本地仓库。</p></li><li><p>列出现有远程仓库以获取要更改的远程仓库的名称。</p><pre class="line-numbers language-shell" data-language="shell"><code class="language-shell">$ git remote -v&gt; origin  https:&#x2F;&#x2F;github.com&#x2F;USERNAME&#x2F;REPOSITORY.git (fetch)&gt; origin  https:&#x2F;&#x2F;github.com&#x2F;USERNAME&#x2F;REPOSITORY.git (push)<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre></li><li><p>使用</p><pre class="line-numbers language-none"><code class="language-none">git remote set-url<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>命令将远程的 URL 从 HTTPS 更改为 SSH。</p><pre class="line-numbers language-shell" data-language="shell"><code class="language-shell">$ git remote set-url origin git@github.com:USERNAME&#x2F;REPOSITORY.git<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li><li><p>验证远程 URL 是否已更改。</p><pre class="line-numbers language-shell" data-language="shell"><code class="language-shell">$ git remote -v# Verify new remote URL&gt; origin  git@github.com:USERNAME&#x2F;REPOSITORY.git (fetch)&gt; origin  git@github.com:USERNAME&#x2F;REPOSITORY.git (push)<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre></li></ol></blockquote><p>参考资料：<br><a href="https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#adding-your-ssh-key-to-the-ssh-agent">将 SSH 密钥添加到 ssh-agent</a><br><a href="https://docs.github.com/en/github/using-git/changing-a-remotes-url">更改远程仓库的 URL</a><br><a href="https://docs.github.com/en/github/using-git/which-remote-url-should-i-use">我应使用哪个远程 URL？</a></p><p>大多文章中所提到的</p><pre class="line-numbers language-shell" data-language="shell"><code class="language-shell">git config –global credential.helper cache<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>命令是长期储存密码</p><p>并没有更改远程URL方式 更没有使用到配置好的密钥</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 翻车记录 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Git </tag>
+            
+            <tag> 奇怪的问题 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hexo迁移</title>
+      <link href="2021/01/30/hexo-qian-yi/"/>
+      <url>2021/01/30/hexo-qian-yi/</url>
+      
+        <content type="html"><![CDATA[<p><strong>前提：</strong></p><p>拥有博客源文件</p><p>且在确保安装node与npm的情况下</p><h3 id="安装hexo"><a href="#安装hexo" class="headerlink" title="安装hexo"></a>安装hexo</h3><pre class="line-numbers language-shell" data-language="shell"><code class="language-shell">npm i hexo-cli -g<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>注意：</p><p>迁移时<strong>不需要重新进行</strong>hexo init操作</p><p>可能会导致_config.yml被重置</p><h3 id="通过package-json来使用npm一键部署已安装包"><a href="#通过package-json来使用npm一键部署已安装包" class="headerlink" title="通过package.json来使用npm一键部署已安装包"></a>通过package.json来使用npm一键部署已安装包</h3><pre class="line-numbers language-shell" data-language="shell"><code class="language-shell">npm install<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h3 id="正常部署到本地"><a href="#正常部署到本地" class="headerlink" title="正常部署到本地"></a>正常部署到本地</h3><p>查看博客是否正常渲染</p><pre class="line-numbers language-shell" data-language="shell"><code class="language-shell">hexo g &amp;&amp; hexo s<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> 笔记 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>个人2020Steam大奖提名</title>
+      <link href="2020/11/26/ge-ren-2020steam-da-jiang-ti-ming/"/>
+      <url>2020/11/26/ge-ren-2020steam-da-jiang-ti-ming/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>我能提名哪些游戏？</p><p>只有于 2019 年秋季特卖（2019 年 12 月 3 日 上午 10 时（PT））之后在 Steam 上发行的游戏才有资格获得“爱的付出”以外奖项的提名。除去年的获奖游戏（Warframe 和 GTA V）外，所有已发行游戏均有资格获得“爱的付出”奖项提名。</p><p>请注意，您只能为一款游戏提名一个 Steam 大奖奖项。</p></blockquote><p><img src="https://pic.gksec.com/20210721/7GvNHvIV/loading.gif" data-original="https://pic.gksec.com/2020/11/26/3440b9ce77afb/steamawards_2020.png" alt=""></p><h2 id="提名年度最佳游戏："><a href="#提名年度最佳游戏：" class="headerlink" title="提名年度最佳游戏："></a><strong>提名年度最佳游戏：</strong></h2><h3 id="死亡搁浅"><a href="#死亡搁浅" class="headerlink" title="死亡搁浅"></a><strong>死亡搁浅</strong></h3><iframe   height=498px width=100% src="//player.bilibili.com/player.html?aid=73967712&bvid=BV11E411b7uc&cid=126533906&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe><p>​    PS:我在ps上通关的 steam我是云玩家.jpg</p><p>​        狗安心，剧情绝对不跟弹幕里说的搭得上一个字- -实际剧情体验比宣传片还要出彩</p><p>​        首发当时还在疫情宅家期间，结合这游戏内容真的是很应景了.jpg</p><p>​        <strong>再次感谢伟大的曲奇锅锅让我第一时间能够体验到QWQ</strong></p><p>​        需要注意的是 联网游玩出现的其他玩家物资与基建是碎片化随机出现的 并不是一进去就有完整基建的！！</p><p>​    小岛这个新作被绝大多数人侃是<strong>快递模拟器</strong></p><p>​    其实不然。</p><p><del>    是扔屎撒尿还自带穿越的辣鸡联网游戏</del></p><p>​    游戏前期畏畏缩缩物资缺乏只能逃不能躲 (恐怖游戏)</p><p>​    到后期完全捉摸透BT和米尔人、恐怖分子的套路之后豹躁得主动上门抢物资（现在，我们都是米尔人了.jpg)</p><p><del>    以及站着对着BT撒尿</del></p><h5 id="剧情方面"><a href="#剧情方面" class="headerlink" title="剧情方面"></a>剧情方面</h5><p>​    关键字：<strong>点赞</strong>  <strong>催产素</strong>  <strong>时间雨</strong> <strong>破碎的世界</strong>  <strong>网络</strong><del>网络一线牵 珍惜这段缘</del> <strong>炸炸炸</strong></p><p>​    超强演员阵容+动作捕捉+深情出演 </p><p>​    这是一个前期慢热的游戏 （这大概也是很多人弃坑的理由吧。。）</p><p>​    前期的慢热只为后期剧情的高潮做准备与铺垫</p><p>​    以及剧情的<strong>反转</strong>与戏剧性。</p><p>​    前期憋屈后期超级解气的.jpg</p><h5 id="彩蛋"><a href="#彩蛋" class="headerlink" title="彩蛋"></a>彩蛋</h5><p>​    彩蛋实实在在是太多了</p><p>​    不仅仅有</p><p>​    剧情彩蛋（不剧透~）</p><p>​    节日彩蛋</p><p>​    各种私货<del>小岛恶趣味</del>，比如小岛的歌单与收藏品（滑稽） 随处可见的卢登斯 避难所里的每一个人物等等等等等等等等等等。</p><p><del>[完全损坏]：PlayStation主机</del></p><p><img src="https://pic.gksec.com/20210721/7GvNHvIV/loading.gif" data-original="https://pic.gksec.com/2020/11/26/2b49209209b83/death_standing_shootcutpic_egg.jpg" alt="death_standing_shootcutpic_egg.jpg"></p><h5 id="tips："><a href="#tips：" class="headerlink" title="tips："></a>tips：</h5><p>​    第三章跑路稍微有些多</p><p>​    但是之后的剧情绝对绝对不会让你后悔的✔</p><p><strong>中部地区</strong></p><p>​    气象站往上爬的山上可能有点难度（交通工具很难上去 而且BT较多 没有网络）</p><p>​    故建议解锁索道后：</p><p>​    <strong>提前建立索道</strong> 多带索道 有空多<strong>捶</strong>米尔人 </p><p>​    从气象站直连到基地（玛玛实验室或者南部节点城）</p><p>​    徒步 登山连网之后</p><p>​    就可以在山上建好索道直接滑下来 </p><p>​    索道上无视BT</p><p><del>    其实是我太怂害怕BT（完完全全中了小岛老贼的计）才会想疯狂打索道桩，有一次甚至打了桩没连上索道尬在半空中，旁边就是BT区</del></p><p>​    完全不怕啦~</p><p>​    附上大致路线建议图（<strong>在网上找了个全景图orz</strong>）： （黄色为索道路线，索道在玛玛实验室解锁）</p><p>​    <strong>可建路线有很多 建议自由发挥233</strong></p><p>​    最重要的就是连接雪山与气象站的那一条</p><p><img src="https://pic.gksec.com/20210721/7GvNHvIV/loading.gif" data-original="https://pic.gksec.com/2020/11/26/e0096839cc172/death_standingtips.png" alt="img"></p><h5 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h5><p>​    不是岛学家</p><p>​    只是觉得在过度快餐化、游戏环境越来越恶劣的今天</p><p>​    能有一个需要静下心慢慢品味的游戏艺术品属实不易。</p><p><del>    PS:这篇文章我上班偷偷摸摸摸鱼写的不要举办我呀QAQ</del></p><h5 id="部分截图："><a href="#部分截图：" class="headerlink" title="部分截图："></a>部分截图：</h5><p><img src="https://pic.gksec.com/20210721/7GvNHvIV/loading.gif" data-original="https://pic.gksec.com/2020/11/26/19354563079c6/death_standing_shootcutpic_num.png" alt="death_standing_shootcutpic_num.png"></p><p>​    = =老截图狂了 可惜当时候还没更新拍照模式</p><p>摸鱼：</p><p><img src="https://pic.gksec.com/20210721/7GvNHvIV/loading.gif" data-original="https://pic.gksec.com/2020/11/26/94efd34f0f96d/death_standing_shootcutpic_06.jpg" alt="death_standing_shootcutpic_06.jpg"></p><p><img src="https://pic.gksec.com/20210721/7GvNHvIV/loading.gif" data-original="https://pic.gksec.com/2020/11/26/b60217145edce/death_standing_shootcutpic_03.png" alt="death_standing_shootcutpic_03.png"></p><p><img src="https://pic.gksec.com/20210721/7GvNHvIV/loading.gif" data-original="https://pic.gksec.com/2020/11/26/9895a1d1bedf0/death_standing_shootcutpic_05.png" alt="death_standing_shootcutpic_05.png"></p><p>海獭帽子：</p><p><img src="https://pic.gksec.com/20210721/7GvNHvIV/loading.gif" data-original="https://pic.gksec.com/2020/11/26/fdc20a26f06b8/death_standing_shootcutpic_04.png" alt="death_standing_shootcutpic_04.png"></p><p><img src="https://pic.gksec.com/20210721/7GvNHvIV/loading.gif" data-original="https://pic.gksec.com/2020/11/26/0178ea99c3153/death_standing_shootcutpic_02.png" alt="img"></p><p><img src="https://pic.gksec.com/20210721/7GvNHvIV/loading.gif" data-original="https://pic.gksec.com/2020/11/26/e641e7b430eb2/death_standing_shootcutpic_01.png" alt="img"></p><hr><h3 id="年度最佳VR：Half-Life-Alyx"><a href="#年度最佳VR：Half-Life-Alyx" class="headerlink" title="年度最佳VR：Half-Life: Alyx"></a>年度最佳VR：<strong>Half-Life: Alyx</strong></h3><p>G胖虽然没有数到三，但是却有了这样一部VR巨作</p><p>结合valve index 细致的细节 </p><p><del>这不载入VR游戏史册这不拿奖还有公道吗.jpg</del></p><p>买不起index所以<strong>云</strong>了- -</p><h3 id="爱的付出：-天命2"><a href="#爱的付出：-天命2" class="headerlink" title="爱的付出： 天命2"></a>爱的付出： <strong>天命2</strong></h3><p><del>今年不能投给他爱和仓鼠哈哈哈</del></p><p>引用自己的评测：</p><blockquote><p>这游戏挺好玩的<br>就是玩着玩着头顶有点凉<br>-——————<br>以及萌新剧情体验究极破碎<br>不过社保就完事了(￣o￣) . z Z</p></blockquote><h3 id="独乐乐不如众乐乐：-糖豆人：终极挑战赛"><a href="#独乐乐不如众乐乐：-糖豆人：终极挑战赛" class="headerlink" title="独乐乐不如众乐乐： 糖豆人：终极挑战赛"></a>独乐乐不如众乐乐： <strong>糖豆人：终极挑战赛</strong></h3><p>一个人玩真的太菇毒了</p><p>一个人玩了两下AFK得更快- -</p><p>ps：pc上有开挂神仙 但是也遇到过几次大家伙齐心协力锤走开挂神仙的情况orz</p><h3 id="杰出视觉风格：荒野大镖客2-纠结"><a href="#杰出视觉风格：荒野大镖客2-纠结" class="headerlink" title="杰出视觉风格：荒野大镖客2 (纠结)"></a>杰出视觉风格：<strong>荒野大镖客2</strong> (纠结)</h3><p>​    当时第一次玩到是在主机上</p><p>​    在当时机能严重落后的ps上能有如此好的画面与细节表现真是太棒了</p><p>​    更不用说PC上了！</p><p><del>    细节太多前期骑马骑到吐</del>&gt;</p><p><del>    其实<strong>零之曙光</strong>也挺适合这个奖项的。。。</del></p><p><del>    <strong>零之曙光</strong>➡ “我们only on playstation的意思是说只是盘只能放主机里玩的意思.jpg”</del></p><h3 id="最具创意游戏玩法：创世理想乡"><a href="#最具创意游戏玩法：创世理想乡" class="headerlink" title="最具创意游戏玩法：创世理想乡"></a>最具创意游戏玩法：<strong>创世理想乡</strong></h3><p>​    。。当把一切的一切完全缝合起来一锅炖</p><p>​    也是一种创意吧！！！</p><p>​    在一个游戏里啥都能玩到的缝合游戏</p><h3 id="纵使手残仍大爱：精灵与萤火意志"><a href="#纵使手残仍大爱：精灵与萤火意志" class="headerlink" title="纵使手残仍大爱：精灵与萤火意志"></a>纵使手残仍大爱：<strong>精灵与萤火意志</strong></h3><p>​    小奥里2终于来了，带着船新招式玩法.jpg</p><p><del>    还记得前作被各种花样折磨死的小奥里玩得心累</del></p><p>​    OST绝赞.jpg</p><p>​    小声bb：XGP大法好</p><h3 id="最佳原声音轨：-战地5-纠结"><a href="#最佳原声音轨：-战地5-纠结" class="headerlink" title="最佳原声音轨： 战地5 (纠结)"></a>最佳原声音轨： <strong>战地5</strong> (纠结)</h3><p>​    这个奖项是我最为纠结的- -</p><p>​    实在实在太多了。。。</p><p>​    最后随便翻翻看到了男友5 </p><p>​    战地1之后开始的战地</p><p>​    战役剧情<del>电影</del> 配乐进步太多</p><p>​    也终于认认真真讲起了故事</p><p>​    就<strong>赏</strong>一个吧</p><h3 id="杰出剧情游戏：-底特律：化身成人-比较多所以纠结"><a href="#杰出剧情游戏：-底特律：化身成人-比较多所以纠结" class="headerlink" title="杰出剧情游戏： 底特律：化身成人 (比较多所以纠结)"></a>杰出剧情游戏： <strong>底特律：化身成人</strong> (比较多所以纠结)</h3><p>​    剧情党必定白金.jpg</p><p>​    康康党屏幕必定被舔爆炸.jpg</p><h3 id="轻松惬意奖：无名鹅作剧"><a href="#轻松惬意奖：无名鹅作剧" class="headerlink" title="轻松惬意奖：无名鹅作剧"></a>轻松惬意奖：<strong>无名鹅作剧</strong></h3><p>honKhonKhonKhonKhonKhonKhonKhonKhonKhonKhonKhonKhonKhonKhonKhonKhonKhonKhonKhonKhonKhonKhonKhonKhonKhonKhonKhonKhonKhonKhonKhonKhonKhonKhonKhonKhonKhonKhonKhonKhonKhonKhonKhonKhonKhonKhonKhonKhonKhonKhonKhonKhonKhonKhonKhonKhonKhonKhonKhonKhonKhonKhonKhonKhonKhonKhonKhonKhonKhonKhonKhonKhonKhonKhonKhonKhonKhonKhonKhonKhonKhonKhonKhonKhonKhonKhonKhonKhonKhonKhonKhonKhonKhonKhonKhonKhonKhonKhonKhonKhonKhonKhonKhonK</p><p>honK！</p><p><a href="https://samperson.itch.io/desktop-goose">桌面上的鹅(Desktop Goose)</a></p><h3 id="最后的总结："><a href="#最后的总结：" class="headerlink" title="最后的总结："></a>最后的总结：</h3><p>​    <strong>喜欢的游戏太多啦！！想提名的太多啦！！</strong> </p><p>​    <strong>某一个奖项都能想到许许多多的游戏，才会出现许许多多的纠结</strong></p><p>​    <strong>但是无奈只能投一个</strong><br>​    <strong>害</strong></p><hr><p>​    新主机已经正式面世</p><p>​    希望新世代能够体验到更多、更高水准的次世代游戏💗</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 摸鱼 </category>
+          
+          <category> 安利 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> GAME </tag>
+            
+            <tag> STEAM </tag>
+            
+            <tag> PC </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>为什么学姐会咕🕊？</title>
+      <link href="2020/11/15/wei-shi-me-xue-jie-hui-gu/"/>
+      <url>2020/11/15/wei-shi-me-xue-jie-hui-gu/</url>
+      
+        <content type="html"><![CDATA[<p>因为最近在忙着<br>找<strong>童工</strong><br><strong>搬家</strong><br><strong>水电燃气物业费</strong><br><strong>通勤交通单车费</strong><br>orz<br><img src="https://pic.gksec.com/20210721/7GvNHvIV/loading.gif" data-original="https://pic.gksec.com/2020/11/15/c4bf8f75bd535/dgr_1.jpg" alt=""></p><p><img src="https://pic.gksec.com/20210721/7GvNHvIV/loading.gif" data-original="https://pic.gksec.com/2020/11/15/657388801fe6a/dgr_2.jpg" alt=""></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 关于 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 丢人 </tag>
+            
+            <tag> 摸鱼 </tag>
+            
+            <tag> Aboutme </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>开题阶段-《暗时间》读书笔记</title>
+      <link href="2020/11/02/kai-ti-jie-duan-an-shi-jian-du-shu-bi-ji/"/>
+      <url>2020/11/02/kai-ti-jie-duan-an-shi-jian-du-shu-bi-ji/</url>
+      
+        <content type="html"><![CDATA[<p><a href="https://www.cnblogs.com/Seacolorfox/p/13913594.html">博客园链接:开题阶段-《暗时间》读书笔记</a><br><del>持续更新…咕</del></p><p>我有三本《暗时间》</p><p>工程师所写下的总结文章，往往都是那么的直白、干货满满。</p><p>这是一本专业术语处处可见，却是一本讲时间管理、心理学、思维模式、问题解决方式的书籍。其中不乏作者在生活当中的见闻与不断思考所得结论。</p><p>没有鸡汤。全是干货。</p><p>篇幅有限，仅谈谈部分所总结与反思。</p><p>从小到大随着学历的提升，我们所接触到的知识面广度越来越被压缩，而深度不断延伸，虽然能够在专业领域或多或少总会取得自己得意的小成就，但内心中的空白却随着知识面广度压缩而不断增加。<strong>内心难免孤独</strong>。我们不能仅仅局限于专业领域，要拥有自己的方式来填补广度上的空缺。</p><p><strong>学会冥想</strong></p><p>静下心来，省思自我，心如止水。</p><p>充分抓住身旁的<strong>“暗时间”</strong>，省思自我。</p><p>而灵感往往转身即逝，</p><blockquote><p>书写是为了更好地思考</p></blockquote><p>作为一个很喜欢思考的人，每一步的思考都能层层递进至更深层的思考。正如书中所述思维，我们需要各种方式来记录下思维轨迹，以便后续进行回溯。思考使得我们沿着思维轨迹不断放大点点星光，我们需要学会<strong>去摘星星</strong>，去记录，也不仅仅局限于书写，包括各种形式，进行思维的缓存，让心灵旅途不再迷路，因为</p><blockquote><p>反思是让人得以改进自己的最重要的思维品质</p></blockquote><blockquote><p>讨论是绝佳的反思</p></blockquote><blockquote><p>激励你去持续学习和思考</p></blockquote><p><strong>抛弃杂念</strong></p><blockquote><p>生活中的选择远比我们想象的要多，细微的选择差异造就了不同的人生。</p></blockquote><p>我永远记得在第一次面试时，面试官对我所说的那一句印象深刻的话：</p><p>“你们应届生在求职时，一定要认真思考，因为你们的第一份工作，会影响到你们的未来以及专业方向。”</p><blockquote><p>什么才是你的不可替代性和核心竞争力？</p></blockquote><p>认清形式，不随风逐流，明辨是非。</p><p>抛弃杂念，清楚认识到自己究竟是谁，究极想要什么。</p><p>在认清自我前，为了不必要而匆忙出击，过于草率。换句话说，就是<strong>没有准备好</strong>。</p><p><strong>学会忽略一些东西，可以帮你找到平和的内心。</strong></p><p><strong>时刻学习</strong></p><blockquote><p>习惯之所以难以改变，就是因为习惯是自我巩固的</p><p>能够改变既有的习惯，依靠的不是自制力，而是知识</p></blockquote><p>在我们大部分人中，知识是我们打破阶级差距的唯一通路，</p><p><strong>终身学习</strong>的观念更是每一个读书人或不可缺的精神意志，是一种信仰。</p><hr><p>《暗时间》所述，值得我们每一个专业或非专业的人细研。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 原创文章 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 毕业设计 </tag>
+            
+            <tag> 阅读笔记 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>关于我的博客园</title>
+      <link href="2020/11/02/guan-yu-wo-de-bo-ke-yuan/"/>
+      <url>2020/11/02/guan-yu-wo-de-bo-ke-yuan/</url>
+      
+        <content type="html"><![CDATA[<p>应老师要求<br>开辟了一个<strong>菜</strong>园</p><p><a href="https://www.cnblogs.com/Seacolorfox/">https://www.cnblogs.com/Seacolorfox/</a></p><p>目前用于记录毕业设计文献综述</p><p><strong>一分耕耘一份收获</strong></p><p>​    希望能种出自己中意的🍏🍅🍎🥝🍆🍐🍊🥑🥦🍋🍌🥬🥒🍉🍇🌶🌽🍓🍈🥕🍒🥔🍠🍑🥭🍍🥥🌾🍄🌹🌷💐🌸🌺🌼🌻🍀☘🌿🌱🌴🌳🌲🎄🌵🌰🥜</p><p>辣椒？我不吃辣椒阿</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 关于 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Aboutme </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Git之删除远程仓库文件</title>
+      <link href="2020/10/20/git-zhi-shan-chu-yuan-cheng-cang-ku-wen-jian/"/>
+      <url>2020/10/20/git-zhi-shan-chu-yuan-cheng-cang-ku-wen-jian/</url>
+      
+        <content type="html"><![CDATA[<h3 id="——cached是一个很好的git命令参数"><a href="#——cached是一个很好的git命令参数" class="headerlink" title="——cached是一个很好的git命令参数"></a>——cached是一个很好的git命令参数</h3><p>万物皆可好.jpg</p><p>Git Docs：</p><p><a href="https://git-scm.com/docs/git-rm">https://git-scm.com/docs/git-rm</a></p><blockquote><p>–cached</p></blockquote><blockquote><p>Use this option to unstage and remove paths only from the index. Working tree files, whether modified or not, will be left alone.</p></blockquote><p>能够对清除远程仓库上的文件而保留本地仓库文件，并使其不被版本控制。</p><p>其使用方法：</p><p>删除具体文件夹：</p><pre class="line-numbers language-none"><code class="language-none">git rm -r --cached .file_path<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>例如新添加了<strong>.gitignore</strong></p><p>将被忽略文件从远程版本库中移除：</p><p><del>看啥不爽就可以ignore然后移除掉.jpg</del></p><pre class="line-numbers language-none"><code class="language-none">git rm -r --cached .<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>之后提交commit并且push即可。</p><p>不过，在对版本库进行操作前，都建议进行<strong>备份</strong>，避免操作失误<del>（手滑）</del>造成不（shan）必（ku）要的麻烦</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 笔记 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Git </tag>
+            
+            <tag> 小技巧 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>关于Autodesk（自动桌子）的卸载与重装</title>
+      <link href="2020/09/05/guan-yu-autodesk-zi-dong-zhuo-zi-de-xie-zai-yu-chong-zhuang/"/>
+      <url>2020/09/05/guan-yu-autodesk-zi-dong-zhuo-zi-de-xie-zai-yu-chong-zhuang/</url>
+      
+        <content type="html"><![CDATA[<h1 id="如何在宁的Autodesk（自动桌子）坏掉的情况下卸载或重装Autodesk？（修好自动桌子）"><a href="#如何在宁的Autodesk（自动桌子）坏掉的情况下卸载或重装Autodesk？（修好自动桌子）" class="headerlink" title="如何在宁的Autodesk（自动桌子）坏掉的情况下卸载或重装Autodesk？（修好自动桌子）"></a>如何在宁的Autodesk（自动桌子）坏掉的情况下卸载或重装Autodesk？（修好自动桌子）</h1><p>​     辣鸡Autodesk反人类软件又又又又坏啦！CAD、3dsmax又又又打不开啦，可以不用上学上班啦（划掉</p><p>  重装也全部是❌❌❌ 我不干活啦！</p><p>⭐<strong><em>此</em> ** 文档中针对的是Autodesk自动桌子产品（如3dsmax、CAD等）在</strong>非正常卸载<strong>，或者</strong>安装失败<strong>的情况下的</strong>完全卸载**</p><p>比如出现以下情况：</p><ul><li>尝试升级版本，却一直发生各种奇怪的错误。</li><li>安装的时候因为各种因素导致安装终止，致使后续安装无法进行以及安装无限失败。</li><li>无法启动。</li></ul><p>前两天帮<strong>学妹</strong>清理电脑发现一堆没卸载完全的<strong>自动桌子腿</strong>,折腾很久<del>比较脑壳大</del>才折腾好（说好弄一台结果来<strong>四</strong>台机儿我枯了<del><strong>你是个好人</strong>.jpg</del>）</p><p>网上有那种付费的卸载工具，虽然简单好用但是似乎有问题 <del>会顺带把注册表给扬了</del></p><p>实际主要思路无非三条：</p><ul><li>清理残余组件（<del>桌子腿</del>）。</li><li>使用第三方工具完全清除卸载失败组件</li><li>清理注册表</li></ul><h2 id="1-使用-Autodesk-uninstallTool-（Autodesk-官方的卸载工具）"><a href="#1-使用-Autodesk-uninstallTool-（Autodesk-官方的卸载工具）" class="headerlink" title="1.使用 Autodesk uninstallTool （Autodesk 官方的卸载工具）"></a>1.使用 Autodesk uninstallTool （Autodesk 官方的卸载工具）</h2><p>​    如果有安装过Autodesk的软件，一般在开始菜单→Autodesk文件夹中存在这个工具（<strong>Uninstall Tool</strong>）</p><p>​    <del>其实就是偷懒啦。。。用这个可以直接看到自动桌子装的全部组件。。之后只要用Geek什么的清理卸载失败的或者残留的就可以了。</del></p><p>​    如果没有的话。。我放个下载链接。。。QWQ</p><p>​    链接：<a href="https://pan.baidu.com/s/165_6-2AsjoWfTSnz4Zr94Q">https://pan.baidu.com/s/165_6-2AsjoWfTSnz4Zr94Q</a><br>​    提取码：zibm</p><p>​    解压密码：@Seacolorfox</p><h2 id="2-使用卸载工具"><a href="#2-使用卸载工具" class="headerlink" title="2.使用卸载工具"></a>2.使用卸载工具</h2><p>⭐如果Autodesk uninstallTool 卸载不完全，请使用卸载工具</p><p>例如<strong>Geek Uninstaller</strong>，官网：<a href="https://geekuninstaller.com/">https://geekuninstaller.com/</a></p><p>绿色可免费小巧点开即用。</p><p>使用Geek勾选未卸载干净的组件，如果不知道需要卸载些什么，打开安装包，点击至开始安装处点击安装详情即可看到会被安装的组件（安装失败的没有被打勾）。</p><h2 id="3-清理注册表"><a href="#3-清理注册表" class="headerlink" title="3.清理注册表"></a>3.清理注册表</h2><p>⭐1.使用<strong>微软官方工具</strong>（<strong>Microsoft Program Install and Uninstall Troubleshooter</strong>）<br>  下载链接：<a href="https://support.microsoft.com/en-us/help/17588/windows-fix-problems-that-block-programs-being-installed-or-removed">https://support.microsoft.com/en-us/help/17588/windows-fix-problems-that-block-programs-being-installed-or-removed</a></p><blockquote><p>该疑难解答程序可帮助<strong>解决</strong>以下问题：</p></blockquote><blockquote><ul><li>64 位操作系统上的损坏注册表项。</li></ul></blockquote><blockquote><ul><li>控制更新数据的损坏注册表项。</li></ul></blockquote><blockquote><ul><li>阻止安装新程序。</li></ul></blockquote><blockquote><ul><li>阻止完全卸载或更新现有程序。</li></ul></blockquote><blockquote><ul><li>阻止你通过“控制面板”中的“添加或删除程序”（或“程序和功能”）卸载程序。</li></ul></blockquote><blockquote><ul><li>如果要删除恶意软件，则可以使用 Windows 安全中心（或其他防病毒工具），也可以使用Windows 恶意软件删除工具。</li></ul></blockquote><hr><p>⭐2.<strong>手动清理注册表</strong></p><ul><li>⭐若Microsoft Program Install and Uninstall Troubleshooter也没有作用的话，请<strong>手动清理注册表</strong>。</li><li>⭐手动清理注册表请<strong>细心细心再细心</strong>，避免对windows造成功能性缺失。</li><li>以<strong>3DSMAX</strong>为例：(<strong>如果是卸载其他请清除对应的文件夹。。请不要一直欺负3DSMAX</strong>)<br><strong>删除注册表文件：</strong></li><li>点击开始 运行，输入regedit，打开注册表（win10用户直接点左下角小娜搜索“注册表”就可以打开）。 </li><li>删除：HKEY_CURRENT_USER\software\Autodesk\3ds Max </li><li>删除：HKEY_LOCAL_MACHINE\software\Autodesk\3ds Max </li><li>删除：HKEY_LOCAL_MACHINE\software\classes\installer\products目录下依次单击文件夹（<del>人工遍历</del>），在右边ProductName的参数可以看到该文件夹对应的安装程序，按需删除。（<strong>？</strong>不知道删除哪些？，打开Geek或者Autodesk安装包，找到要清除的组件名再在注册表上慢慢找到并删除就可以了，比如材质库组件库blabla）</li><li>删除：HKEY_CLASSES_ROOT下的Max文件夹 （没有就别管.jpg）</li><li>Tips：products目录下注册存放着所有安装程序的安装源路径。（<strong>所以请务必细心谨慎</strong>）</li></ul><h2 id="4-安装"><a href="#4-安装" class="headerlink" title="4.安装"></a>4.安装</h2><h2 id="5-许可问题-例如：卡在加载，检查许可，无法初始化，以及20验证错误、安全性验证错误等"><a href="#5-许可问题-例如：卡在加载，检查许可，无法初始化，以及20验证错误、安全性验证错误等" class="headerlink" title="5.许可问题 例如：卡在加载，检查许可，无法初始化，以及20验证错误、安全性验证错误等"></a>5.许可问题 例如：卡在加载，检查许可，无法初始化，以及20验证错误、安全性验证错误等</h2><p><strong>Autodesk官方文档</strong>给出的解决方案：</p><blockquote><p><strong><em>仅</em></strong> <strong>当您遇到许可问题时删除许可存储文件果</strong>。如果您没有许可问题，请跳过此步骤。以下是最常见的许可问题症状：<br>删除以下许可（受信任的存储）文件（它们位于不同的位置，具体取决于您的操作系统）。</p></blockquote><blockquote><ul><li>尝试启动产品时，它停留在“正在检查许可”或“正在加载”步骤。</li><li>尝试启动产品时，显示以下错误消息：“无法初始化 adlm: 内部错误消息: &lt;初始化使用跟踪组件时出错。&gt; 错误代码：&lt;-104&gt;”</li></ul></blockquote><blockquote><p><strong>重要信息：</strong>如果您使用的是单机永久使用许可，则删除 <em>adskflex_###_tsf.data</em> 文件可能导致您的软件停止工作。首先检查您的旧版 Autodesk 单机许可软件是否在<a href="https://knowledge.autodesk.com/zh-hans/search-result/caas/sfdcarticles/sfdcarticles/Transport-Layer-Security-TLS-Updates-Required-to-Maintain-Software-Access.html">传输层安全性 (TLS)：需要应用更新以便继续访问软件</a>中列出。如果已列出，请安装更新。然后，您可以安全地删除 <em>adskflex</em> 文件。如果您的软件未列出，则在删除 <em>adskflex</em> 文件后无法重新许可，并且您的软件将停止工作。</p></blockquote><table><thead><tr><th><strong>Vista 或 Windows 7/8/10</strong></th><th>C:\ProgramData\FLEXnet\adskflex&lowbar;########&lowbar;tsf.data <br>C:\ProgramData\FLEXnet\adskflex&lowbar;########&lowbar;tsf.data.backup</th></tr></thead><tbody><tr><td><strong>Windows XP</strong></td><td>C:\Documents and Settings\All Users\Application Data\FLEXnet\adskflex&lowbar;########&lowbar;tsf.data <br>C:\Documents and Settings\All Users\Application Data\FLEXnet\adskflex&lowbar;########&lowbar;tsf.data.backup</td></tr><tr><td><strong>macOS</strong></td><td>/Library/Preferences/FlexnetPublisher/FLEXnet/adskflex&lowbar;########&lowbar;event.log <br>/Library/Preferences/FlexnetPublisher/FLEXnet/adskflex&lowbar;########&lowbar;tsf.data <br>/Library/Preferences/FlexnetPublisher/FLEXnet/adskflex&lowbar;########&lowbar;backup 注意：如果您的计算机上没有 Adobe 产品，请也删除以下文件夹：/Library/Application Support/Flexnet Publisher</td></tr></tbody></table><p>⭐<strong>如果是学习版或者能够再认证的话。。。</strong></p><p>​    直接将<strong>FLEnet</strong>文件夹移除即可（一 步 到 位）</p><p>​    💢<strong>请谨慎使用！！！</strong>有一定几率导致远古版本出现无法激活的问题（无限安全锁错误，需要重装软件）</p><p>​    路径：C:\ProgramData\FLEnet</p><p>​    Tips：ProgramData在windows中默认<strong>隐藏</strong>，请确认对隐藏项目可见。</p><h2 id="6-其他步骤（非必要）"><a href="#6-其他步骤（非必要）" class="headerlink" title="6.其他步骤（非必要）"></a>6.其他步骤（非必要）</h2><p><del>以下是我贴的官方文档</del><br><strong>实际上在1、2步骤我们的工具基本上已经清理好了,所以请选择性清理</strong></p><blockquote><ol><li>删除所有剩余的残留文件。请勿清空文件夹。仅删除与您要卸载的产品相关的那些文件。</li></ol></blockquote><blockquote><table><thead><tr><th><strong>Windows 产品</strong></th><th>C:\Program Files\Autodesk\ <br>C:\ProgramData\Autodesk\ <br>C:\Users\YourUserid\AppData\Local\Autodesk\ <br>C:\Users\YourUserid\AppData\Roaming\Autodesk\ <br>C:\Users\YourUserid\AppData\Roaming\Autodesk\ADUT（如果适用）</th></tr></thead><tbody><tr><td><strong>Mac 产品</strong></td><td>Library\Application Support\Autodesk<br>Library\Application Support\Preferences</td></tr></tbody></table></blockquote><blockquote><ol start="2"><li><strong>清除 Windows TEMP 文件。</strong></li></ol></blockquote><blockquote><ol start="3"><li><strong>从安装程序中，重新尝试安装 Autodesk 产品</strong>。</li></ol></blockquote><blockquote><ol start="4"><li><strong>如果安装仍然失败</strong></li></ol></blockquote><blockquote><p>  您可能需要删除与所有 Autodesk 产品和支持软件（如附加模块）相关的文件。</p></blockquote><blockquote><ul><li>有关适用于 Windows 的此过程的完整详细信息，请参见[删除 Autodesk 软件 (Windows)](<a href="https://knowledge.autodesk.com/zh-hans/customer-service/download-install/remove-products/remove-windows-products#Uninstall">https://knowledge.autodesk.com/zh-hans/customer-service/download-install/remove-products/remove-windows-products#Uninstall</a> peripheral applications.)。</li><li>对于 Mac 产品，使用 Spotlight 搜索所有 Autodesk 软件和支持文件，然后将其移到垃圾桶。</li></ul></blockquote><p>Final：</p><p>💗希望各位能修好各位的自动桌子</p><p>参考文献：</p><p>​    <a href="https://knowledge.autodesk.com/customer-service/download-install/remove-products/clean-uninstall">https://knowledge.autodesk.com/customer-service/download-install/remove-products/clean-uninstall</a></p><div><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=415792374&auto=1&height=66"></iframe></div>]]></content>
+      
+      
+      <categories>
+          
+          <category> 原创文章 </category>
+          
+          <category> 工具人系列 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 奇怪的问题 </tag>
+            
+            <tag> Autodesk </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>My New Post</title>
+      <link href="2020/07/25/my-new-post/"/>
+      <url>2020/07/25/my-new-post/</url>
+      
+        <content type="html"><![CDATA[<p>hello world！！</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>2019/05/18学姐更新说明</title>
+      <link href="2019/05/18/2019-05-18-xue-jie-geng-xin-shuo-ming/"/>
+      <url>2019/05/18/2019-05-18-xue-jie-geng-xin-shuo-ming/</url>
+      
+        <content type="html"><![CDATA[<p>“学姐” 更新说明 2019.5.18</p><hr><p>”学姐“的下一个补丁已经正式上线，带来了一系列的错误修正和更新<br>1.加强了【老实人】特性，现在作为老实人可以顺利使用【wdnmd】了。<br>2.修复了【老实人】发动时会产生【犹豫就会败北】的bug。<br>3.在实际中，我们发现【豹躁】这一技能效率偏低，于是我们更改了其与其他技能的强度差距，虽然伤害有所降低，但在保留原本特色的同时，添加了新的特性：<br>    【豹躁】：<br>        所需怒气值增加15%；<br>        伤害成长从每分钟10点降低到每分钟1点；<br>        新增：<br>            【豹躁间摸鱼术】<br>                豹躁间摸鱼一段时间，使快乐值回复速度+50%，并解除【豹躁】<br>        移除【伤敌一千自损八百】debuff；<br>4.降低了【犹豫就会败北】的触发条件。<br>5.我们发现【鸽学之道】技能触发几率并没有实际想象中那么理想，于是我们试图增加了【鸽学之道】的触发几率：<br>    【鸽学之道】：<br>        被动触发几率提升5%。<br>6.优化了【摸鱼术】的天赋树。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 搞事 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 整活 </tag>
+            
+            <tag> 丢人 </tag>
+            
+            <tag> 摸鱼 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>
